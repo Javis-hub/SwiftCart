@@ -27,7 +27,7 @@ img,img:hover{
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-#padding{
+section{
     padding: 20px 5%;
 }
 
@@ -50,10 +50,24 @@ img,img:hover{
 #close{
     display: none;
 }
+nav{
+    display: flex;
+    align-items: center;
+}
 
 #navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     column-gap: 1rem;
+}
+
+#navicon{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+#navicon i{
+    font-size: 1rem;
 }
