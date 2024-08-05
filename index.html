@@ -7,6 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <section id="header" class="padding">
+        <a href="">SwiftCart</a>
+
+        <nav>
+            <ul id="nabar">
+                <li><a href="">Categories</a></li>
+                <li><a href="">Shop</a></li>
+            </ul>
+            <div id="navicon">
+                <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                <p><i class="fa-solid fa-user"></i></p>
+                <a href="">Sign in</a>
+            </div>
+        </nav>
+
+        <div id="mobile">
+            <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-bars"></i>
+        </div>
+    </section>
+
+    <script>
+        let bar = document.getElementById('bar');//bar
+        let nav = document.getElementById('navbar');
+        let close = document.getElementById('close');//navlist
+
+        if (bar) {
+            bar.addEventListener('click', () => {
+                nav.classList.add('active'); 
+            }) //create the class list in the css
+        } 
+
+        if (close) {
+            close.addEventListener('click', () => {
+                nav.classList.remove('active'); 
+            }) //create the class list in the css
+        } 
+    </script>
 </body>
 </html>
