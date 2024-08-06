@@ -30,7 +30,7 @@ body{
 
 p{
     outline: none;
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: #f6ec82;
 }
 
 a,button,textarea,
@@ -180,6 +180,10 @@ section{
     object-fit: cover;
     object-position: center;
     border-radius: 1rem;
+}
+
+.con h3{
+    font-size: ;
 }
 
 .explore{
