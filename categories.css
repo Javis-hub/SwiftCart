@@ -6,6 +6,10 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+::selection{
+    outline-color: #f6ec82;
+    -webkit-tap-highlight-color: transparent;
+}
 ul,li{
     list-style-type: none;
 }
@@ -23,16 +27,16 @@ body{
     height: 100vh;
 }
 
-p, p:hover{
+p{
     outline: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
 }
 
 a,button,textarea,
 a:hover,button:hover,
 img,img:hover{
     outline: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
 }
 
 
