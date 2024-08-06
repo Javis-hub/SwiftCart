@@ -255,7 +255,6 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: .2rem solid #292929;
     transition: .4s;
 }
 
@@ -345,6 +344,7 @@ footer{
     grid-template-columns: repeat(auto-fit, minmax(160px, auto));
     column-gap: 2rem;
     row-gap: 1rem;
+    align-items: center;
 }
 
 .last{
