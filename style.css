@@ -110,8 +110,11 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-color: #f6ec82;
-    min-height: 70vh;
+    background-image: url(Images/Products/Banners/korean\ Girl.jpeg);
+    background-size: cover;
+    background-position: 100% top;
+    background-repeat: no-repeat;
+    min-height: 90vh;
     transition: .3s;
 }
 
@@ -144,7 +147,7 @@ section{
 }
 
 #container h2{
-    background-image: url(Images/design/button.png);
+    background-image: url(Images/Products/design/button.png);
     background-position: left;
     background-repeat: no-repeat;
     padding: 2rem 0;
@@ -187,7 +190,7 @@ section{
 }
 
 .banner_one{
-    background-image: url(Images/Products/Banners/korean\ Girl.jpeg);
+    background-image: url(Images/Products/Banners/Two\ girls.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -198,6 +201,13 @@ section{
     justify-content: center;
     align-items: flex-start;
     transition: inherit;
+}
+
+.one{
+    background-image: url(Images/Products/Banners/Three\ Girls.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .banner_one h2{
@@ -249,13 +259,34 @@ section{
     transition: .4s;
 }
 
+.two{
+    background-image: url(Images/Products/Banners/summer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.three{
+    background-image: url(Images/Products/Banners/footwear.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+
+.four{
+    background-image: url(Images/Products/Banners/belle-jeune-femme-regardant-camera-fille-mode-t-shirt-blanc-ete-decontracte-short-jean-lunettes-soleil-rondes-femelle-positive-montre-emotions-faciales-modele-drole-isole-bleu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .flex_one h2{
     font-size: 2rem;
 }
 
 .flex_one p{
     font-weight: 600;
-    color: red;
+    color: inherit;
 }
 
 #news{
@@ -388,9 +419,9 @@ footer p{
         justify-content: flex-start;
         top: 0;
         left: -400px;
-        padding: 5rem .4rem 5rem;
+        padding: 5rem .4rem;
         width: 400px;
-        height: 100vh;
+        min-height: 100vh;
         background-color: #ffffff;
         transition: .2s ease;
     }
@@ -417,6 +448,7 @@ footer p{
         text-align: justify;
         padding: .7rem .3rem;
         border-radius: .3rem;
+        font-weight: 500;
         cursor: pointer;
     }
 
@@ -430,6 +462,7 @@ footer p{
         flex-direction: column;
         align-items: flex-start;
         row-gap: 1rem;
+        font-weight: 500;
         text-align: justify;
         width: 100%;
         cursor: pointer;
@@ -487,7 +520,7 @@ footer p{
     #mobile i{
         padding: .3rem .6rem;
         margin-right: .2rem;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         cursor: pointer;
         box-shadow: 0 0 3px rgba(0, 0, 0, .4);
     }
@@ -542,22 +575,27 @@ footer p{
     }
 }
 
+
 @media (max-width: 500px){
     #navbar{
         width: 350px;
         left: -350px;
-        padding-bottom: 4rem;
     }
+
+    .small_log{
+        font-size: 1.5rem;
+    }
+
     section{
         padding: 15px 2%;
     }
 
     .hero_con h1{
         font-size: 3rem;
-        line-height: .9;
         padding: 0 0 .3rem;
         font-weight: 900;
     }
+
 
     #flex_col{
         flex-direction: column;
@@ -583,6 +621,7 @@ footer p{
     #navbar{
         width: 300px;
         left: -350px;
-        padding-bottom: 2rem;
+        height: 100%;
     }
 }
+
