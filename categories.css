@@ -24,10 +24,11 @@ body{
 }
 a,button,textarea,
 a:hover,button:hover,
-img,img:hover{
+img,img:hover,p,p:hover{
     outline: none;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 
 section{
     padding: 20px 5%;
