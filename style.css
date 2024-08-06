@@ -30,7 +30,7 @@ img,img:hover{
 }
 
 section{
-    padding: 20px 10%;
+    padding: 20px 5%;
     transition: .4s ease;
 }
 
@@ -110,10 +110,11 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(Images/Products/Banners/korean\ Girl.jpeg);
+    background-image: linear-gradient(#0000006f, #00000067), url(Images/Banners/korean\ Girl.jpeg);
     background-size: cover;
     background-position: 100% top;
     background-repeat: no-repeat;
+    color: #fff;
     min-height: 90vh;
     transition: .3s;
 }
@@ -129,7 +130,7 @@ section{
 
 .hero_con p{
     font-size: 1.2rem;
-    color: #fff;
+    font-weight: 500;
     margin-bottom: .5rem;
 }
 
@@ -336,7 +337,7 @@ section{
 }
 
 footer{
-    padding: 20px 3%;
+    padding: 20px 5%;
     background-color: #000;
     min-height: 30vh;
 }
@@ -371,7 +372,7 @@ footer p{
 }
 
 .footer_two{
-    padding: .2rem 0;
+    padding: .5rem 0;
     color: #c9c8c8;
     display: flex;
     flex-direction: column;
@@ -379,7 +380,7 @@ footer p{
 
 .footer_two a,
 .footer_one p{
-    padding: .1rem;
+    padding: .3rem;
 }
 
 .footer_two a:hover{
@@ -527,11 +528,6 @@ footer p{
 
     #mobile i:hover{
         box-shadow: 0 0 3px rgba(0, 0, 0, .5);
-    }
-
-
-    section{
-        padding: 20px 5%;
     }
 
     .container_con{
