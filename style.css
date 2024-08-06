@@ -440,7 +440,7 @@ footer p{
         width: 400px;
         min-height: 100vh;
         background-color: #ffffff;
-        transition: .2s ease;
+        transition: .3s ease;
     }
 
     #navbar.active{
@@ -467,6 +467,7 @@ footer p{
         border-radius: .3rem;
         font-weight: 500;
         cursor: pointer;
+        transition: .3s ease;
     }
 
     #mobilenav p:hover{
@@ -483,6 +484,7 @@ footer p{
         text-align: justify;
         width: 100%;
         cursor: pointer;
+        transition: .3s ease;
     }
 
     
