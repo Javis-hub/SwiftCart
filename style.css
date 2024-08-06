@@ -22,6 +22,12 @@ html{
 body{
     height: 100vh;
 }
+
+p, p:hover{
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 a,button,textarea,
 a:hover,button:hover,
 img,img:hover{
@@ -475,14 +481,10 @@ footer p{
         border-radius: .3rem;
         padding: 1rem 1rem;
         width: 100%;
-        outline: none;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
     #navform p:hover{
         background-color: #f6ec82;
-        outline: none;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
     #navform i{
