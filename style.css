@@ -97,6 +97,10 @@ section{
     cursor: pointer;
 }
 
+.small_log{
+    display: none;
+}
+
 #mobile{
     display: none;
 }
@@ -301,16 +305,15 @@ section{
 }
 
 footer{
-    padding: 40px 5%;
-    min-height: 40vh;
+    padding: 20px 3%;
     background-color: #000;
+    min-height: 30vh;
 }
 .footer_flex{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, auto));
     column-gap: 2rem;
-    min-height: 30vh;
-    border-bottom: .2rem solid #fff;
+    row-gap: 1rem;
 }
 
 .last{
@@ -318,7 +321,7 @@ footer{
     font-size: 1.7rem;
 }
 
-#footer p{
+footer p{
     padding-bottom: .2rem;
 }
 
@@ -406,7 +409,7 @@ footer{
         justify-content: flex-start;
         align-items: flex-start;
         row-gap: 1.5rem;
-        width: 90%;
+        width: 100%;
     }
 
     #mobilenav p{
@@ -428,7 +431,7 @@ footer{
         align-items: flex-start;
         row-gap: 1rem;
         text-align: justify;
-        width: 90%;
+        width: 100%;
         cursor: pointer;
     }
 
@@ -437,7 +440,7 @@ footer{
         background-color: #b2adad;
         border-radius: .3rem;
         padding: .6rem;
-        width: 90%;
+        width: 100%;
     }
 
     #navform p:hover{
@@ -450,21 +453,27 @@ footer{
         cursor: pointer;
     }
 
-    .logo{
-        z-index: 9;
-    }
-
     #navicon p,
     #navicon a{
         display: none;
     }
+
+    .small_log{
+        display: flex;
+        position: absolute;
+        top: 1.5rem;
+        left: .6rem;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
     #close{
         display: flex;
         position: absolute;
-        top: 1.4rem;
-        right: 2rem;
+        top: 1.5rem;
+        right: .6rem;
         font-size: 1.5rem;
-        padding: .2rem .6rem;
+        padding: .3rem .6rem;
         cursor: pointer;
         box-shadow: 0 0 3px rgba(0, 0, 0, .1);
     }
@@ -476,7 +485,8 @@ footer{
     }
 
     #mobile i{
-        padding: .2rem .5rem;
+        padding: .3rem .6rem;
+        margin-right: .2rem;
         font-size: 1.5rem;
         cursor: pointer;
         box-shadow: 0 0 3px rgba(0, 0, 0, .4);
@@ -521,8 +531,14 @@ footer{
         width: 80%;
     }
 
-    #footer{
-        grid-template-columns: repeat(3, 1fr);
+    footer{
+        padding: 20px 3%;
+    }
+
+    .footer_flex{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+        border-bottom: .1rem solid #fff;
     }
 }
 
@@ -535,6 +551,14 @@ footer{
     section{
         padding: 15px 2%;
     }
+
+    .hero_con h1{
+        font-size: 3rem;
+        line-height: .9;
+        padding: 0 0 .3rem;
+        font-weight: 900;
+    }
+
     #flex_col{
         flex-direction: column;
         min-height: 50vh;
@@ -548,9 +572,11 @@ footer{
         width: 100%;
     }
 
-    #footer{
-        grid-template-columns: repeat(auto, 1fr);
+    footer{
+        padding: 10px 2%;
+        min-height: 20vh;
     }
+
 }
 
 @media (max-width: 368px){
