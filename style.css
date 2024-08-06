@@ -129,6 +129,7 @@ section{
 
 .hero_con p{
     font-size: 1.2rem;
+    color: #fff;
     margin-bottom: .5rem;
 }
 
@@ -342,9 +343,8 @@ footer{
 .footer_flex{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, auto));
-    column-gap: 2rem;
-    row-gap: 1rem;
-    align-items: center;
+    column-gap: 1rem;
+    row-gap: .5rem;
 }
 
 .last{
@@ -357,7 +357,7 @@ footer p{
 }
 
 .footer_one{
-    padding: 2rem 0;
+    padding: .2rem 0;
     color: #c9c8c8;
 }
 
@@ -371,7 +371,7 @@ footer p{
 }
 
 .footer_two{
-    padding: 2rem 0;
+    padding: .2rem 0;
     color: #c9c8c8;
     display: flex;
     flex-direction: column;
@@ -446,7 +446,7 @@ footer p{
     #mobilenav p{
         width: inherit;
         text-align: justify;
-        padding: .7rem .3rem;
+        padding: 1.3rem 1rem;
         border-radius: .3rem;
         font-weight: 500;
         cursor: pointer;
@@ -472,7 +472,7 @@ footer p{
     #navform p{
         background-color: #b2adad;
         border-radius: .3rem;
-        padding: .6rem;
+        padding: 1rem 1rem;
         width: 100%;
     }
 
@@ -567,12 +567,6 @@ footer p{
     footer{
         padding: 20px 3%;
     }
-
-    .footer_flex{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(160px, auto));
-        border-bottom: .1rem solid #fff;
-    }
 }
 
 
@@ -612,7 +606,6 @@ footer p{
 
     footer{
         padding: 10px 2%;
-        min-height: 20vh;
     }
 
 }
