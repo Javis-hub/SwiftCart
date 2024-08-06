@@ -5,13 +5,13 @@
     padding: 0;
     margin: 0;
     font-family: 'poppins',sans-serif;
-    /* -webkit-tap-highlight-color: transparent; */
+    -webkit-tap-highlight-color: transparent;
 }
 
-::selection{
+/* ::selection{
     outline-color: #f6ec82;
     -webkit-tap-highlight-color: #f6ec82;
-}
+} */
 
 ul,li{
     list-style-type: none;
