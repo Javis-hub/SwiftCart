@@ -347,6 +347,10 @@ section{
     margin-bottom: 20px;
 }
 
+#footer{
+    padding: 8vw;
+    background-color: #000;
+}
 
 @media (max-width: 768px){
     body{
