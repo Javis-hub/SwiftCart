@@ -646,8 +646,16 @@ section{
 
     .footer_info{
         grid-template-columns: 1fr;
-        margin: 0;
-        row-gap: 0;
+        margin: 10px;
+        row-gap: 10px;
+    }
+
+    .footer_col{
+        margin: 10px;
+    }
+
+    .end{
+        margin-top: 10px;
     }
 }
 
