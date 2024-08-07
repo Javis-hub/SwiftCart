@@ -384,17 +384,17 @@ section{
 .socials{
     display: flex;
     align-items: center;
-    padding: .2rem 0;
+    padding: .5rem 0;
 }
 
-.socials a i{
-    font-size: 25px;
+.socials i{
+    font-size: 2rem;
     color: #fff;
     gap: 1.5rem;
     transition: .3s;
 }
 
-.socials a i:hover{
+.socials i:hover{
     transform: scale(1.1);
     color: #f6ec82;
 }
