@@ -121,6 +121,7 @@ section{
 }
 
 #hero h1{
+    display: flex;
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 1px solid #000;
@@ -138,6 +139,9 @@ section{
 .category{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    min-width: 100px;
+    justify-content: space-between;
+    gap: 10px;
     grid-auto-flow: dense;
     min-height: inherit;
 }
@@ -146,7 +150,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 800;
     color: #fff;
     text-align: center;
@@ -194,8 +198,6 @@ section{
 }
 .card:not(:hover){
     filter: brightness(.8);
-    color: #000;
-    font-size: 2rem;
     transition: .3s ease;
 }
 
