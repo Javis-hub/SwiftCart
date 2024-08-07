@@ -23,6 +23,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    height: 100vh;
+}
+
 ::-webkit-scrollbar-thumb {
     background-color: #f6ec82;
 }
