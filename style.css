@@ -363,6 +363,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    row-gap: .3rem;
     color: #fff;
     flex-wrap: wrap;
 }
@@ -384,6 +385,17 @@ section{
 
 #footer li:hover{
     color: #f6ec82;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    gap: .1rem;
+}
+
+.socials i{
+    font-size: 1rem;
+    background-color: #fff;
 }
 
 @media (max-width: 768px){
