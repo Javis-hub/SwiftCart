@@ -64,23 +64,9 @@ section{
 }
 
 .logo{
-    position: relative;
-    display: inline-flex;
-    color: #000;
-    column-gap: 0;
-}
-
-.logo a{
-    margin: 0;
-    font-size: 2rem;
     font-weight: 900;
-}
-
-.logo i{
-    position: absolute;
-    right: -2.2rem;
-    font-size: 2.4rem;
-    margin-left: 0;
+    font-size: 2rem;
+    color: #000;
 }
 
 #close{
