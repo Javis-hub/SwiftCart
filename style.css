@@ -350,6 +350,11 @@ section{
 #footer{
     padding: 8vw;
     background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #fff;
+    flex-wrap: wrap;
 }
 
 @media (max-width: 768px){
