@@ -368,10 +368,10 @@ section{
 .footer_info{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    line-height: 1.2;
-    align-items: center;
+    line-height: 1.1;
+    align-content: center;
     margin: 0 auto;
-    gap: 20px;
+    column-gap: 15px;
     padding: 0 15px;
 }
 
@@ -379,6 +379,7 @@ section{
     margin: 0;
     margin-bottom: 15px;
     margin-top: 15px; 
+    gap: 0;
     padding: 15px 0;
 }
 
@@ -415,7 +416,7 @@ section{
 .socials i{
     padding: 10px 0;
     display: inline-block;
-    font-size: 2.7rem;
+    font-size: 2.2rem;
     margin-right: 5px;
     transition: .3s ease;
 }
@@ -656,9 +657,8 @@ section{
     
     .footer_info{
         grid-template-columns: 1fr;
-        grid-template-rows: 100px;
         margin: 10px 0;
-        row-gap: 10px;
+        row-gap: 0;
     }
 
     .footer_col{
@@ -667,6 +667,7 @@ section{
 
     .end{
         flex-direction: column;
+        align-items: flex-start;
         text-align: justify;
         margin-top: 10px;
     }
