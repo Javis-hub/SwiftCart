@@ -389,6 +389,7 @@ section{
     display: flex;
     align-items: center;
     padding: .5rem 0;
+    gap: 1.5rem;
 }
 
 .socials i{
@@ -582,7 +583,7 @@ section{
     }
 
     section{
-        padding: 15px 2% 0;
+        padding: 15px 2%;
     }
 
     .hero_con h1{
