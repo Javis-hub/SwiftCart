@@ -368,25 +368,22 @@ section{
 .footer_info{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    line-height: 1.1;
-    align-content: center;
+    line-height: 1.5;
+    align-items: center;
     margin: 0 auto;
-    column-gap: 15px;
+    gap: 20px;
     padding: 0 15px;
 }
 
 .footer_col{ 
     margin: 0;
-    margin-bottom: 15px;
-    margin-top: 15px; 
-    gap: 0;
-    padding: 15px 0;
+    margin-bottom: 5px;
+    margin-top: 5px; 
 }
 
 .footer_col p{
     font-size: 15px;
     font-weight: 400;
-    margin-bottom: 10px;
 }
 .footer_col h4{
     font-size: 1.3rem;
@@ -405,7 +402,7 @@ section{
 
 .footer_col ul li a{
     font-weight: 400;
-    font-size: 1rem;
+    font-size: .9rem;
     color: #fff;
     transition: .3s;
 }
@@ -414,9 +411,8 @@ section{
 }
 
 .socials i{
-    padding: 10px 0;
     display: inline-block;
-    font-size: 2.2rem;
+    font-size: 2.7rem;
     margin-right: 5px;
     transition: .3s ease;
 }
@@ -427,7 +423,6 @@ section{
 }
 
 .payment i{
-    padding: 10px 0;
     display: inline-block;
     margin-top: 0;
     padding: 0;
@@ -443,7 +438,7 @@ section{
     justify-content: space-between;
     align-items: center;
     font-weight: 400;
-    margin-top: 15px;
+    margin-top: 12px;
     border-top: 1.5px solid #fff;
 }
 
@@ -654,11 +649,10 @@ section{
         width: 100%;
     }
 
-    
     .footer_info{
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
         margin: 10px 0;
-        row-gap: 0;
+        row-gap: 10px;
     }
 
     .footer_col{
@@ -668,7 +662,6 @@ section{
     .end{
         flex-direction: column;
         align-items: flex-start;
-        text-align: justify;
         margin-top: 10px;
     }
 }
