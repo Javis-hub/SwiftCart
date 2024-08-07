@@ -367,16 +367,17 @@ section{
 }
 
 .footer_col{
-    padding-bottom: 2,4rem;
+    padding-bottom: 1.5rem;
 }
 
 #footer h3{
+    font-size: 1.2rem;
     font-weight: 600;
     padding-bottom: .3rem;
 }
 
 #footer li{
-    padding: .2rem 0;
+    padding: .1rem 0;
     cursor: pointer;
     transition: .3s;
 }
@@ -389,13 +390,12 @@ section{
     display: flex;
     align-items: center;
     padding: .5rem 0;
-    gap: 1.5rem;
+    gap: 15px;
 }
 
 .socials i{
     font-size: 2rem;
     color: #fff;
-    gap: 1.5rem;
     transition: .3s;
 }
 
