@@ -359,7 +359,7 @@ section{
 
 #footer{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     column-gap: 1.5rem;
     row-gap: 1.5rem;
     background-color: #000;
@@ -390,11 +390,11 @@ section{
     display: flex;
     align-items: center;
     padding: .5rem 0;
-    gap: 15px;
 }
 
 .socials i{
     font-size: 2rem;
+    margin-right: 5px;
     color: #fff;
     transition: .3s;
 }
