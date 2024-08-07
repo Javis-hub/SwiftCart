@@ -6,6 +6,8 @@
     margin: 0;
     font-family: 'poppins',sans-serif;
     -webkit-tap-highlight-color: transparent;
+    scrollbar-width: thin;
+    scrollbar-color: #f6ec82;
 }
 
 ul,li{
@@ -23,6 +25,10 @@ html{
 
 body{
     height: 100vh;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #f6ec82;
 }
 
 p{
