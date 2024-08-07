@@ -276,6 +276,7 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
+    min-height: inherit;
 }
 
 .three{
@@ -283,6 +284,7 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
+    min-height: inherit;
 }
 
 
@@ -290,6 +292,7 @@ section{
     background-image: url(Images/Products/Banners/belle-jeune-femme-regardant-camera-fille-mode-t-shirt-blanc-ete-decontracte-short-jean-lunettes-soleil-rondes-femelle-positive-montre-emotions-faciales-modele-drole-isole-bleu.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: inherit;
 }
 
 .flex_one h2{
