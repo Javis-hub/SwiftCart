@@ -361,22 +361,24 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     column-gap: 1.5rem;
-    row-gap: 1.5rem;
+    padding: 1.6rem 5%;
+    row-gap: 1rem;
     background-color: #000;
-    color: #bfbfbf;
 }
 
 .footer_col{
-    padding-bottom: 1.2rem;
+    padding-bottom: 1rem;
 }
 
 #footer h3{
+    color: #fff;
     font-size: 1.2rem;
     font-weight: 600;
     padding-bottom: .3rem;
 }
 
 #footer li{
+    color: #bfbfbf;
     padding: .1rem 0;
     cursor: pointer;
     transition: .3s;
