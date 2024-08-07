@@ -428,7 +428,6 @@ section{
     
     .one{
         grid-row: span 2;
-        background-color: #fff;
     }
     
     .two{
@@ -499,7 +498,6 @@ section{
     
     .one{
         grid-row: span 2;
-        background-color: #fff;
     }
     
     .two{
