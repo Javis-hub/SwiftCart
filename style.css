@@ -367,7 +367,7 @@ section{
 }
 
 .footer_col{
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.2rem;
 }
 
 #footer h3{
@@ -447,7 +447,6 @@ section{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        row-gap: .6rem;
         width: 100%;
     }
 
