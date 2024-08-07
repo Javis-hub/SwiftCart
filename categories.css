@@ -116,6 +116,171 @@ section{
     display: none;
 }
 
+#hero{
+    min-height: 100vh;
+}
+
+#hero h1{
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+#hero p{
+    font-size: .9rem;
+    padding: 1.5rem 0;
+}
+
+.container{
+    min-height: 100vh;
+}
+
+.category{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    grid-auto-flow: dense;
+    border-radius: 20px;
+    min-height: inherit;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    background-color: green;
+    cursor: pointer;
+}
+
+.one{
+    grid-row: span 2;
+    background-color: #fff;
+}
+
+.two{
+    background-color: #000;
+}
+
+.three{
+    background-color: blue;
+    grid-row: span 2;
+}
+
+.four{
+    background-color: purple;
+    grid-row: span 2;
+}
+
+.five{
+    background-color: pink;
+    grid-row: span 2;
+}
+
+.six{
+    background-color: orange;
+}
+
+.seven{
+    background-color: orangered;
+}
+
+.eight{
+    background-color: chocolate;
+}
+.card:not(:hover){
+    filter: brightness(.6);
+}
+
+#footer{
+    background-color: #000;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    color: #fff;
+    transition: .3s;
+}
+
+.footer_info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    line-height: 1.5;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 0 15px;
+}
+
+.footer_col{ 
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 5px; 
+}
+
+.footer_col p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer_col h4{
+    font-size: 1.3rem;
+    margin-top: 5px 0;
+    margin-bottom: 0;
+}
+
+.footer_col ul{
+    margin: 10px 0;
+    padding: 0;
+}
+
+.footer_col ul li{
+    margin: 2px 0;
+}
+
+.footer_col ul li a{
+    font-weight: 400;
+    font-size: .9rem;
+    color: #fff;
+    transition: .3s;
+}
+.footer_col ul li a:hover{
+    color: #f6ec82;
+}
+
+.socials i{
+    display: inline-block;
+    font-size: 2.7rem;
+    margin-right: 5px;
+    transition: .3s ease;
+}
+
+.socials i:hover{
+    color: #f6ec82;
+    transform: scale(1.1);
+}
+
+.payment i{
+    display: inline-block;
+    margin-top: 0;
+    padding: 0;
+    font-size: 2.7rem;
+    margin-right: 5px;
+}
+.payment i:hover{
+    color: #f6ec82;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    margin-top: 12px;
+    border-top: 1.5px solid #fff;
+}
+
 @media (max-width: 768px){
     body{
         padding: 4rem 0;
@@ -143,7 +308,7 @@ section{
         width: 400px;
         min-height: 100vh;
         background-color: #ffffff;
-        transition: .2s ease;
+        transition: .3s ease;
     }
 
     #navbar.active{
@@ -159,7 +324,6 @@ section{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        row-gap: 1.5rem;
         width: 100%;
     }
 
@@ -170,6 +334,7 @@ section{
         border-radius: .3rem;
         font-weight: 500;
         cursor: pointer;
+        transition: .3s ease;
     }
 
     #mobilenav p:hover{
@@ -186,6 +351,7 @@ section{
         text-align: justify;
         width: 100%;
         cursor: pointer;
+        transition: .3s ease;
     }
 
     
@@ -248,6 +414,61 @@ section{
     #mobile i:hover{
         box-shadow: 0 0 3px rgba(0, 0, 0, .5);
     }
+
+    .category{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        min-height: inherit;
+    }
+    
+    .card{
+        background-color: green;
+        cursor: pointer;
+    }
+    
+    .one{
+        grid-row: span 2;
+        background-color: #fff;
+    }
+    
+    .two{
+        background-color: #000;
+        color: #fff;
+        grid-row: span 2;
+    }
+    
+    .three{
+        background-color: blue;
+        grid-row: span 2;
+    }
+    
+    .four{
+        background-color: purple;
+        grid-row: span 2;
+    }
+    
+    .five{
+        background-color: pink;
+        grid-row: span 2;
+    }
+
+    .six{
+        background-color: orange;
+    }
+
+    .seven{
+        background-color: orangered;
+        grid-row: span 2;
+    }
+
+    .eight{
+        background-color: chocolate;
+    }
+
+    #footer{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
 }
 
 @media (max-width: 500px){
@@ -262,6 +483,73 @@ section{
 
     section{
         padding: 15px 2%;
+    }
+
+    .category{
+        display: grid;
+        grid-template-columns: 1fr;
+        min-height: inherit;
+    }
+    
+    .card{
+        background-color: green;
+        cursor: pointer;
+        min-height: 50vh;
+    }
+    
+    .one{
+        grid-row: span 2;
+        background-color: #fff;
+    }
+    
+    .two{
+        background-color: #000;
+        color: #fff;
+        grid-row: span;
+    }
+    
+    .three{
+        background-color: blue;
+        grid-row: span 2;
+    }
+    
+    .four{
+        background-color: purple;
+        grid-row: span 2;
+    }
+    
+    .five{
+        background-color: pink;
+        grid-row: span 2;
+    }
+
+    .six{
+        background-color: orange;
+    }
+
+    .seven{
+        background-color: orangered;
+        grid-row: span 2;
+    }
+
+    .eight{
+        background-color: chocolate;
+    }
+
+    .footer_info{
+        /* grid-template-columns: 1fr; */
+        margin: 10px 0;
+        row-gap: 10px;
+    }
+
+    .footer_col{
+        margin: 10px 0;
+    }
+
+    .end{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
     }
 }
 
