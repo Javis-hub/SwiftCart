@@ -367,6 +367,25 @@ section{
     flex-wrap: wrap;
 }
 
+.footer_col{
+    padding-bottom: 2,4rem;
+}
+
+#footer h3{
+    font-weight: 600;
+    padding-bottom: 1.3rem;
+}
+
+#footer li{
+    padding: .5rem 0;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#footer li:hover{
+    color: #f6ec82;
+}
+
 @media (max-width: 768px){
     body{
         padding: 4rem 0;
