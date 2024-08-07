@@ -653,8 +653,10 @@ section{
         width: 100%;
     }
 
+    
     .footer_info{
         grid-template-columns: 1fr;
+        grid-template-rows: 100px;
         margin: 10px 0;
         row-gap: 10px;
     }
