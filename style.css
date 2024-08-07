@@ -646,15 +646,16 @@ section{
 
     .footer_info{
         grid-template-columns: 1fr;
-        margin: 10px;
+        margin: 10px 0;
         row-gap: 10px;
     }
 
     .footer_col{
-        margin: 10px;
+        margin: 10px 0;
     }
 
     .end{
+        flex-direction: column;
         margin-top: 10px;
     }
 }
