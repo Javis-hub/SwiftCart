@@ -357,53 +357,99 @@ section{
     margin-bottom: 20px;
 }
 
-#footer{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    column-gap: 1.5rem;
-    padding: 1.6rem 5%;
-    row-gap: 1rem;
+footer{
     background-color: #000;
+    padding: 10px 5%;
 }
 
-.footer_col{
-    padding-bottom: 1rem;
-}
-
-#footer h3{
+#logo{
     color: #fff;
-    font-size: 1.2rem;
-    font-weight: 600;
-    padding-bottom: .3rem;
 }
 
-#footer li{
-    color: #bfbfbf;
-    padding: .1rem 0;
-    cursor: pointer;
-    transition: .3s;
+
+.footer_contact{
+    background-color: #000;
+    color: #fff;
 }
 
-#footer li:hover{
-    color: #f6ec82;
+.contact_info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    gap: 20px;
+    padding: 30px 0;
 }
 
-.socials{
+.first_info{
+    width: 160px;
+    height: auto;
+}
+
+.second_info a{
     display: flex;
     align-items: center;
-    padding: .5rem 0;
-}
-
-.socials i{
-    font-size: 2rem;
-    margin-right: 5px;
     color: #fff;
     transition: .3s;
 }
-
-.socials i:hover{
-    transform: scale(1.1);
+.second_info a:hover{
     color: #f6ec82;
+}
+
+.third_info a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    transition: .3s;
+}
+.third_info a:hover{
+    color: #f6ec82;
+}
+
+.fourth_info a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    transition: .3s;
+}
+.fourth_info a:hover{
+    color: #f6ec82;
+}
+
+.five_info a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    transition: .3s;
+}
+.five_info a:hover{
+    color: #f6ec82;
+}
+.contact_info h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact_info p{
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    transition: all .4s;
+}
+
+.social_icons i{
+    color: #d7d4d4;
+    gap: 5px;
+    font-size: 25px;
+    transition: .4s;
+}
+.social_icons i:hover{
+    transform: scale(1.3);
+}
+
+.end_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
 }
 
 @media (max-width: 768px){
