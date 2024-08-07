@@ -207,14 +207,12 @@ section{
     padding-bottom: 80px;
     color: #fff;
     transition: .3s;
-    min-height: 30vh;
 }
 
 .footer_info{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    line-height: 1.5;
-    min-height: inherit;
+    min-height: 10vh;
     align-items: center;
     margin: 0 auto;
     gap: 20px;
