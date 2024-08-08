@@ -161,7 +161,7 @@ section{
 
 .one{
     grid-row: span 2;
-    background-image: url(/Images/Products/Banners/yellow\ coat\ 2.jpg);
+    background-image: url(/Images/Products/Banners/Women.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -175,30 +175,48 @@ section{
 }
 
 .three{
-    background-color: blue;
+    background-image: url(/Images/Products/Banners/);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     grid-row: span 2;
 }
 
 .four{
-    background-color: purple;
+    background-image: url(/Images/Products/Banners/shirt.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     grid-row: span 2;
 }
 
 .five{
-    background-color: pink;
+    background-image: url(/Images/Products/Banners/Hoodie.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     grid-row: span 2;
 }
 
 .six{
-    background-color: orange;
+    background-image: url(/Images/Products/Banners/pants.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .seven{
-    background-color: orangered;
+    background-image: url(/Images/Products/Banners/kicks.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .eight{
-    background-color: chocolate;
+    background-image: url(/Images/Products/Banners/g);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .card:not(:hover){
     filter: brightness(.8);
