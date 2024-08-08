@@ -162,6 +162,7 @@ section{
     gap: 5px;
     cursor: pointer;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 1);
+    transition: .3s ease-in-out; 
 }
 
 .one{
@@ -232,7 +233,6 @@ section{
 .card:not(:hover){
     filter: brightness(.7);
     transition: .3s ease;
-    transform: scale(.9);
 }
 
 #footer{
