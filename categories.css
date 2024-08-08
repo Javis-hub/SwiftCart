@@ -167,7 +167,10 @@ section{
 }
 
 .two{
-    background-color: #000;
+    background-image: url(/Images/Products/Banners/);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .three{
