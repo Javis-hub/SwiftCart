@@ -141,7 +141,7 @@ section{
 .category{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    min-width: 100px;
+    /* min-width: 100px; */
     gap: 10px;
     justify-content: space-between;
     grid-auto-flow: dense;
