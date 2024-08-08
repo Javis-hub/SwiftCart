@@ -475,8 +475,8 @@ section{
 
 @media (max-width: 500px){
     #navbar{
-        min-width: 100px;
-        left: -500px;
+        max-width: 100px;
+        left: -350px;
     }
 
     .small_log{
@@ -552,3 +552,11 @@ section{
         margin-top: 10px;
     }
 }
+
+/* @media (max-width: 368px){
+    #navbar{
+        width: 300px;
+        left: -350px;
+        height: 100%;
+    }
+} */

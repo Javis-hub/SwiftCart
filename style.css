@@ -622,7 +622,7 @@ section{
 
 @media (max-width: 500px){
     #navbar{
-        min-width: 100px;
+        max-width: 100px;
         left: -500px;
     }
 
