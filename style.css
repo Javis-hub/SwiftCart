@@ -622,8 +622,8 @@ section{
 
 @media (max-width: 500px){
     #navbar{
-        max-width: 100px;
-        left: -500px;
+        width: 350px;
+        left: -350px;
     }
 
     .small_log{
@@ -670,5 +670,9 @@ section{
         align-items: flex-start;
         margin-top: 10px;
     }
+}
+
+@media (max-width: 368px){
+    
 }
 

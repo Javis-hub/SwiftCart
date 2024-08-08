@@ -475,7 +475,7 @@ section{
 
 @media (max-width: 500px){
     #navbar{
-        max-width: 100px;
+        width: 350px;
         left: -350px;
     }
 
@@ -553,10 +553,10 @@ section{
     }
 }
 
-/* @media (max-width: 368px){
+@media (max-width: 368px){
     #navbar{
         width: 300px;
         left: -350px;
         height: 100%;
     }
-} */
+}
