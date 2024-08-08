@@ -155,7 +155,7 @@ section{
     color: #000000;
     border-radius: 15px;
     text-align: center;
-    gap: 8px;
+    gap: 10px;
     cursor: pointer;
 }
 
@@ -175,7 +175,7 @@ section{
 }
 
 .three{
-    background-image: url(/Images/Products/Banners/);
+    background-image: url(/Images/Products/Banners/men.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -213,14 +213,15 @@ section{
 }
 
 .eight{
-    background-image: url(/Images/Products/Banners/g);
+    background-image: url(/Images/Products/Banners/glasses.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .card:not(:hover){
-    filter: brightness(.8);
+    filter: brightness(.7);
     transition: .3s ease;
+    transform: scale(.9);
 }
 
 #footer{
