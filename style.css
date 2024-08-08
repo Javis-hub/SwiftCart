@@ -673,6 +673,10 @@ section{
 }
 
 @media (max-width: 368px){
-    
+    #navbar{
+        width: 300px;
+        left: -350px;
+        height: 100%;
+    }
 }
 
