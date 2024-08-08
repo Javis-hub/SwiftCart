@@ -475,7 +475,7 @@ section{
 
 @media (max-width: 500px){
     #navbar{
-        width: 500px;
+        min-width: 100px;
         left: -500px;
     }
 
