@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SwiftCart</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>SwiftCart</title>
 </head>
 <body>
     <section id="header">
@@ -25,22 +24,22 @@
             
 
             <div id="navicon">
-               <a href="/cart"><i class="fa-solid fa-bag-shopping"></i></a>
+               <a href="/cart"><i class='bx bx-shopping-bag' ></i></a>
+               <a href=""><i class='bx bxs-user-circle'></i></a>
+
                 <p onclick="window.location.href='/form'"><i class="fa-solid fa-user"></i></p>
-                <i class="fas fa-times" id="close"></i> 
-            </div>
-
-            <a href="" class="small_log">SwiftCart</a>
-
-            <div id="navform">
-                <p onclick="window.location.href='/form'"><i class="fa-solid fa-user"></i> Sign In</p>
-                <span>&copy;2024, SwiftCart</span>
+                <i class="fas fa-times" ></i> 
+                <i class='bx bx-x' id="close" style="font-size: 2rem;"></i>
             </div>
         </ul>
 
+        <div id="mobileicons">
+            <a href=""><i class='bx bxs-user-circle'></i></a>
+            <a href=""><i class='bx bx-shopping-bag' ></i></a>
+        </div>
+
         <div id="mobile">
-            <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
-            <i id="bar" class="fas fa-bars"></i>
+            <i id="bar" class='bx bx-menu-alt-right'></i>
         </div>
     </section>
 
