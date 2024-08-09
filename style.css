@@ -17,6 +17,7 @@ a{
 
 a,button,textarea,
 a:hover,button:hover,
+p,
 img,img:hover{
     outline: none;
     -webkit-tap-highlight-color: transparent;
