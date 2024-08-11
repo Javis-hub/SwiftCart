@@ -154,7 +154,7 @@ section{
   align-items: flex-end;
   min-height: inherit;
   padding: 60px 0;
-  color: #ffffff;
+  color: #d6d6d6;
   overflow: hidden;
   margin-bottom: 1.5rem;
 }
@@ -347,7 +347,7 @@ section{
     }
 
     #container{
-        min-height: #90vh;
+        min-height: 90vh;
     }
 
     .logo{
@@ -367,7 +367,7 @@ section{
     }
 }
     
-@media (max-width: 325px){
+/* @media (max-width: 325px){
 
-}
+} */
     
