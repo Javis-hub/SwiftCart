@@ -350,5 +350,23 @@ section{
     #mobileicons i{
         font-size: 1.5rem;
     }
+
+    #hero{
+        min-height: 75vh;
+    }
+
+    .hero-content h1{
+      font-size: var(--h1-3);
+    }
+
+    .hero-content{
+      max-width: 100%;
+    }
+}
+    
+@media (max-width: 325px){
+    #hero{
+        min-height: 100vh;
+    }
 }
     
