@@ -258,6 +258,7 @@ section{
 
     #mobileicons i{
         font-size: 1.6rem;
+        color: #fff;
     }
     #mobilenav{
         display: flex;
@@ -278,7 +279,8 @@ section{
     }
 
     #mobilenav p:hover{
-        background-color: #f6ec82;
+        color: #fff;
+        background-color: rgba(0, 0, 0, .30);
     }
 
     #navform{
@@ -335,6 +337,7 @@ section{
     #mobile i{
         font-size: 1.5rem;
         cursor: pointer;
+        color: #fff;
     }
 }
 
@@ -349,10 +352,6 @@ section{
 
     #mobileicons i{
         font-size: 1.5rem;
-    }
-
-    #hero{
-        min-height: 75vh;
     }
 
     .hero-content h1{
