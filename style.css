@@ -346,6 +346,10 @@ section{
         padding: 4rem .3rem 7rem;
     }
 
+    #container{
+        min-height: #90vh;
+    }
+
     .logo{
         font-weight: 800;
     }
@@ -364,8 +368,6 @@ section{
 }
     
 @media (max-width: 325px){
-    #hero{
-        min-height: 100vh;
-    }
+
 }
     
