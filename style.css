@@ -60,7 +60,7 @@ section{
 .logo{
     font-weight: 900;
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #d6d6d6;
 }
 
 #close{
@@ -81,7 +81,7 @@ section{
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    color: #fff;
+    color: #d6d6d6;
     padding-bottom: 3px;
 }
 
@@ -91,7 +91,7 @@ section{
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #d6d6d6;
     width: 0;
     transition: .3s ease;
 }
@@ -197,7 +197,7 @@ section{
   height: 3rem;
   border-radius: .8rem;
   border: none;
-  color: #fff;
+  color: #d6d6d6;
   background-color: rgba(0, 0, 0, .30);
   cursor: pointer;
   transition: .3s ease;
@@ -234,7 +234,7 @@ section{
         padding: 6rem 2% 3rem;
         width: 100%;
         min-height: 100vh;
-        background-color: #fff;
+        background-color: #d6d6d6;;
         transition: .3s ease;
     }
 
@@ -258,7 +258,8 @@ section{
 
     #mobileicons i{
         font-size: 1.6rem;
-        color: #fff;
+        color: #d6d6d6;
+        font-weight: 700;
     }
     #mobilenav{
         display: flex;
@@ -279,7 +280,7 @@ section{
     }
 
     #mobilenav p:hover{
-        color: #fff;
+        color: #d6d6d6;;
         background-color: rgba(0, 0, 0, .30);
     }
 
@@ -338,6 +339,7 @@ section{
         font-size: 1.5rem;
         cursor: pointer;
         color: #fff;
+        font-weight: 700;
     }
 }
 
