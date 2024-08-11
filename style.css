@@ -124,10 +124,14 @@ section{
 }
 
 #navicon i{
+    color: #d6d6d6;
     font-size: 1.6rem;
     align-items: center;
     margin-right: .5rem;
     cursor: pointer;
+}
+#navicon i:hover{
+    color: rgba(0, 0, 0, .3);
 }
 
 #mobileicons{
@@ -259,8 +263,12 @@ section{
     #mobileicons i{
         font-size: 1.6rem;
         color: #d6d6d6;
-        font-weight: 700;
     }
+
+    #mobileicons i:hover{
+        color: rgba(0, 0, 0, .3);
+    }
+
     #mobilenav{
         display: flex;
         flex-direction: column;
