@@ -8,24 +8,28 @@
     <title>SwiftCart</title>
 </head>
 <body>
-    <section id="header">
-        <a href="" class="logo">SwiftCart</a>
+   <section id="container">
+        <main id="header">
+            <a href="" class="logo">SwiftCart</a>
 
         <ul id="navbar">
-            <li><a href="/categories.html">Categories</a></li>
+            <li><a href="">Collections</a></li>
             <li><a href="/shop">Shop</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About us</a></li>
 
             <div id="mobilenav">
                 <p onclick="window.location.href='/categories.html'">Categories</p>
                 <p onclick="window.location.href='/shop.html'">Shop</p>
-                <p onclick="window.location.href='/For Men.html'">For Men</p>
-                <p onclick="window.location.href='/For Women.html'">For Women</p>
+                <p onclick="window.location.href='/For Men.html'">Men</p>
+                <p onclick="window.location.href='/For Women.html'">Women</p>
+                <p onclick="window.location.href='/For Women.html'">Blog</p>
+                <p onclick="window.location.href='/For Women.html'">About Us</p>
             </div>
             
-
             <div id="navicon">
-               <a href="/cart"><i class='bx bx-shopping-bag' ></i></a>
-               <a href=""><i class='bx bxs-user-circle'></i></a>
+               <a href="/cart"><i class='bx bx-shopping-bag' style="color: #fff" ></i></a>
+               <a href=""><i class='bx bxs-user-circle' style="color: #fff"></i></a>
 
                 <p onclick="window.location.href='/form'"><i class="fa-solid fa-user"></i></p>
                 <i class="fas fa-times" ></i> 
@@ -41,6 +45,18 @@
         <div id="mobile">
             <i id="bar" class='bx bx-menu-alt-right' style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></i>
         </div>
+        </main>
+
+        <section id="hero">
+            <div class="hero-content">
+              <h1>Elevate Your Style</h1>
+              <h2>Discover the latest fashion trends and must-have at SwiftCart</h2>
+              <p>Unleash your personal style and shop our curated collections of trendy and timeless pieces. From statement-making outfits to everyday essentials, we've got everything you need to elevate your wardrobe game.</p>
+              <button type="button" onclick="window.location.href='/shop.html'">Shop Now</button>
+            </div>
+             
+            <video src="Images/Banners/bg-video.mp4" loop autoplay muted id="herovideo"></video>
+          </section>
     </section>
 
 
