@@ -563,6 +563,7 @@ iframe{
 
 .collapse{
     width: 100%;
+    height: 2.1rem;
     border: none;
     text-align: center;
     font-size: 1rem;
@@ -578,7 +579,7 @@ iframe{
 
 .active, .collapse:hover{
     color: #d6d6d6;
-    background-color: rgba(0, 0, 0, .30);
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .list-foot{
