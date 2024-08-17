@@ -524,7 +524,7 @@ section{
     }
 
     #header{
-        position: sticky;
+        position: flex;
         display: flex;
         justify-content: space-between;
         align-items: center;
