@@ -223,6 +223,14 @@ section{
     font-weight: 500;
 }
 
+#product a{
+    transition: .3s ease;
+}
+
+#product a:hover{
+    text-decoration: underline;
+}
+
 .pro-card{
     text-align: center;
     padding: 1rem;
