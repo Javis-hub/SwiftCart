@@ -927,7 +927,8 @@ section{
     }
 
     #news{
-        min-height: 35vh;
+        padding: .8rem 1% 3rem;
+        min-height: 30vh;
     }
 
     .form input{
