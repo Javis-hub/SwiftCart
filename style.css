@@ -555,22 +555,18 @@ iframe{
 }
 
 #footer{
-    background-color: #000;
+    background-color: #d6d6d6;
     padding: 4rem inherit;
-    text-align: center;
     padding: 2rem 2%;
-    color: #d6d6d6;
 }
 
 .collapse{
     width: 100%;
     height: 2.1rem;
     border: none;
-    text-align: center;
     font-size: 1rem;
     background-color: transparent;
     font-weight: 400;
-    color: #d6d6d6;
     transition: .3s ease-in-out;
 }
 
@@ -589,7 +585,6 @@ iframe{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    color: #d6d6d6;
 }
 
 .list-foot li{
@@ -614,7 +609,6 @@ iframe{
 .socials i{
     font-size: 2rem;
     cursor: pointer;
-    color: #d6d6d6;
     transition: .3s scale;
 }
 
@@ -628,7 +622,6 @@ iframe{
     align-items: center;
     font-size: .8rem;
     margin: .5rem 0;
-    color: #d6d6d6;
 }
 
 
