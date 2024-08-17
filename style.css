@@ -6,7 +6,7 @@
 --color: #f6ec82;
 --h1: 3.5rem; /*@ full display*/
 --h1-2: 3rem;
---h1-3: 2.2rem;
+--h1-3: 2rem;
 --hero-bttn-1-width: 30%;
 --hero-bttn-2-width: 20%;
 --hero-bttn-3-width: 53%;
@@ -185,7 +185,7 @@ section{
   font-family: var(--font-family-2);
   font-weight: 900;
   padding-bottom: .6rem;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 .hero-content h2{
@@ -781,17 +781,11 @@ section{
     
     .hero-content{
        width: 100%;
-       text-align: justify;
     }
 
     .hero-content h1{
       font-size: var(--h1-3);
       padding: .5rem;
-    }
-
-    .hero-content{
-        padding: 0;
-      min-width: 100%;
     }
 
     .hero-content h2{
