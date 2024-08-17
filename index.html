@@ -3,63 +3,242 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+    rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <title>SwiftCart</title>
 </head>
 <body>
-   <section id="container">
-        <main id="header">
-            <a href="" class="logo">UrbanWears</a>
+    <section id="header">
+        <a href="" class="logo">UrbanWEARS</a>
 
-        <ul id="navbar">
-            <li><a href="">Collections</a></li>
-            <li><a href="/shop">Shop</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">About us</a></li>
+    <ul id="navbar">
+        <li><a href="">Collections</a></li>
+        <li><a href="/shop">Shop</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">About us</a></li>
 
-            <div id="mobilenav">
-                <p onclick="window.location.href='/categories.html'">Categories</p>
-                <p onclick="window.location.href='/shop.html'">Shop</p>
-                <p onclick="window.location.href='/For Men.html'">Men</p>
-                <p onclick="window.location.href='/For Women.html'">Women</p>
-                <p onclick="window.location.href='/For Women.html'">Blog</p>
-                <p onclick="window.location.href='/For Women.html'">About Us</p>
-            </div>
-            
-            <div id="navicon">
-               <a href="/cart"><i class='bx bx-shopping-bag' style="color: #fff" ></i></a>
-               <a href=""><i class='bx bxs-user-circle' style="color: #fff"></i></a>
-
-                <p onclick="window.location.href='/form'"><i class="fa-solid fa-user"></i></p>
-                <i class="fas fa-times" ></i> 
-                <i class='bx bx-x' id="close" style="font-size: 2rem; color: #000;"></i>
-            </div>
-        </ul>
-
-        <div id="mobileicons">
-            <a href=""><i class='bx bxs-user-circle'></i></a>
-            <a href=""><i class='bx bx-shopping-bag' ></i></a>
+        <div id="mobilenav">
+            <p onclick="window.location.href='/categories.html'">Categories</p>
+            <p onclick="window.location.href='/shop.html'">Shop</p>
+            <p onclick="window.location.href='/For Men.html'">Men</p>
+            <p onclick="window.location.href='/For Women.html'">Women</p>
+            <p onclick="window.location.href='/For Women.html'">Blog</p>
+            <p onclick="window.location.href='/For Women.html'">About Us</p>
         </div>
+        
+        <div id="navicon">
+           <a href="/cart"><i class='bx bx-shopping-bag' ></i></a>
+           <a href=""><i class='bx bxs-user-circle'></i></a>
 
-        <div id="mobile">
-            <i id="bar" class='bx bx-menu-alt-right' style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></i>
+            <p onclick="window.location.href='/form'"><i class="fa-solid fa-user"></i></p>
+            <i class="fas fa-times" ></i> 
+            <i class='bx bx-x' id="close" style="font-size: 2rem;"></i>
         </div>
-        </main>
+    </ul>
 
+    <div id="mobileicons">
+        <a href=""><i class='bx bxs-user-circle'></i></a>
+        <a href=""><i class='bx bx-shopping-bag' ></i></a>
+    </div>
+
+    <div id="mobile">
+        <i id="bar" class='bx bx-menu-alt-right' style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></i>
+    </div>
+    </section>
+
+    <section id="container">
         <section id="hero">
             <div class="hero-content">
-              <h1>Join The Movement</h1>
-              <h2>Discover the latest fashion trends and must-have at SwiftCart</h2>
-              <p>Experience the intersection of fashion and culture. Elevate your wardrobe and get inspired by our street wears <a href="#">UrbanWears</a></p>
+                <h1>Join The Movement</h1>
+                <h2>Discover the latest fashion trends and must-have at SwiftCart</h2>
+                <p>Experience the intersection of fashion and culture. Elevate your wardrobe and get inspired by our street wears <a href="#">UrbanWears</a></p>
               <button type="button" onclick="window.location.href='/shop.html'">Shop Now</button>
             </div>
              
-            <video src="/Images/Products/Banners/Hero Background.mp4" loop autoplay muted id="herovideo"></video>
+            <video src="/Images/Products/Banners/HBX SS23 Brand Campaign.mp4" loop autoplay muted id="herovideo"></video>
           </section>
     </section>
 
+    <section id="product">
+        <h2>Just In</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper pro-card">
+                    <div class="swiper-slide card"><img src="/Images/Products/PANTS/Baggy Jeans p1.png" alt="">
+                    <div class="card-des">
+                        <a href="">Baggy Jeans</a>
+                        <p>₦ 16,000</p>
+                    </div></div>
+                    <div class="swiper-slide card"><img src="/Images/Products/PANTS/Varma+Jogging+Pants.png" alt="">
+                    <div class="card-des">
+                        <a href="">Varma Jogging Pants</a>
+                        <p>₦ 30,000</p>
+                    </div></div>
+                     <div class="swiper-slide card"><img src="/Images/Products/PANTS/Fear of God Essentials grey.webp" alt="">
+                    <div class="card-des">
+                        <a href="">Fear of God Essential Grey</a>
+                        <p>₦ 36,000</p>
+                    </div></div>
+                    <div class="swiper-slide card"><img src="/Images/Products/PANTS/Fear of God Essentials p2.jpg" alt="">
+                    <div class="card-des">
+                        <a href="">Fear of God Essentials pants</a>
+                        <p>₦ 46,000</p>
+                    </div></div>
+                    <div class="swiper-slide card"><img src="/Images/Products/" alt="">
+                    <div class="card-des">
+                        <a href="">Women Blur Oversized T-Shirt</a>
+                        <p>₦ 86,000</p>
+                    </div></div>
+                    <div class="swiper-slide card"><img src="/Images/Products/" alt="">
+                    <div class="card-des">
+                        <a href="">Cat Eye Sunglasses</a>
+                        <p>₦ 15,500</p>
+                    </div></div>
+                    <div class="swiper-slide card"><img src="Images/SHOES/Nike Dunk Low SB x Born x Raised Sneakers p1.jpg" alt="">
+                    <div class="card-des">
+                        <a href="">NIKE Dunk Low SB</a>
+                        <p>₦ 86,000</p>
+                    </div></div>
+                    <div class="swiper-slide card"><img src="Images/SHIRTS/Tank top.jpg" alt="">
+                        <div class="card-des">
+                            <a href=""></a>
+                            <p>₦ 16,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <a href="">View More</a>
+    </section>
 
+    <section id="sect">
+        <h2>EXPLORE OUR COLLECTION</h2>
+        <div class="sect-item">
+            <div class="sect-card">
+                <img src="Images/Arrival Section/MEN SECTION.png" alt="">
+                <a href="">FOR MEN</a>
+            </div>
+
+            <div class="sect-card">
+                <img src="Images/Arrival Section/FOR WOMEN.png" alt="">
+                <a href="#for women">FOR WOMEN</a>
+            </div>
+
+            <div class="sect-card">
+                <img src="Images/Arrival Section/NEW ARRIVALS.png" alt="">
+                <a href="">NEW ARRIVALS</a>
+            </div>
+
+            <div class="sect-card">
+                <img src="Images/Arrival Section/RAINY DAYS.png" alt="">
+                <a href="">RAINY DAYS</a>
+            </div>
+        </div>
+
+        <button>See More</button>
+    </section>
+
+    <section id="promo">
+        <div class="promo-flex">
+            <div class="promo-card one">
+                <h2>Streetwear Essentials</h2>
+                <p>Streetwear for the Bold and Beautiful</p>
+                <button>Shop Now</button>
+            </div>
+
+            <div class="promo-card two">
+                <h2>Lace UP!!!</h2>
+                <p>Elevate your style with our selection of high-top and low-top sneakers</p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="frame">
+        <h1>Believe The Hype!!!</h1>
+        <h2>check out our very own Nigeria brand</h2>
+            
+        <iframe width="600" height="315" src="https://www.youtube.com/embed/KjEY1RpXuDE?si=e6Ja1nlL6P2ltdj0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+
+        <a href="https://ash-luxe.com/">Go to store</a>
+    </section>
+
+    <section id="item">
+        <h2>BEST SELLING</h2>
+        <div class="item-pro">
+            <div class="item-card">
+                <img src="Images/WOMEN/Active Oversized Hoodie.jpg" alt="">
+                <div class="item-des">
+                    <a href="">Active OverSized Hoodie</a>
+                    <p>₦ 25,000</p>
+                </div> 
+            </div>
+
+            <div class="item-card">
+                <img src="Images/SHIRTS/Fear of God Essentials full.jpg" alt="">
+                <div class="item-des">
+                    <a href="">Fear of God Essentials</a>
+                    <p>₦ 18,000</p>
+                </div> 
+            </div>
+
+            <div class="item-card">
+                <img src="Images/SHIRTS/Reece T shirts.jpg" alt="">
+                <div class="item-des">
+                    <a href="">Reece T-Shirt</a>
+                    <p>₦ 19,000</p>
+                </div> 
+            </div>
+
+            <div class="item-card">
+                <img src="Images/WOMEN/Big Classic Crew Neck Sweatshirt.webp" alt="">
+                <div class="item-des">
+                    <a href="">PLAYBOY Classic Sweatshirt</a>
+                    <p>₦ 25,000</p>
+                </div> 
+            </div>
+
+            <div class="item-card">
+                <img src="Images/SHIRTS/FORD Hallmark Full Zip Hoodie.webp" alt="">
+                <div class="item-des">
+                    <a href="">FORD Hallmark Hoodie</a>
+                    <p>₦ 45,000</p>
+                </div> 
+            </div>
+
+            <div class="item-card">
+                <img src="Images/SHOES/Air Jordan 4 Retro.jpg" alt="">
+                <div class="item-des">
+                    <a href="">NIKE Air Jordan 4 Retro</a>
+                    <p>₦ 119,000</p>
+                </div> 
+            </div>
+
+            <div class="item-card">
+                <img src="Images/ACCESSORIES/New Balance Stone Legacy Backpack.jpg" alt="">
+                <div class="item-des">
+                    <a href="">New Balance Backpack</a>
+                    <p>₦ 40,000</p>
+                </div> 
+            </div>
+
+            <div class="item-card">
+                <img src="Images/WOMEN/Waffle Flare Pants.jpg" alt="">
+                <div class="item-des">
+                    <a href="">Waffle Flare Pants</a>
+                    <p>₦ 20,000</p>
+                </div> 
+            </div>
+        </div>
+
+        <button type="button">Go to shop</button>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
     <script>
         let bar = document.getElementById('bar');//bar
         let nav = document.getElementById('navbar');
@@ -76,6 +255,31 @@
                 nav.classList.remove('active'); 
             }) //create the class list in the css
         } 
+
+        let swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      loop: true,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+      },
+    });
+
     </script>
 </body>
 </html>
