@@ -778,6 +778,11 @@ section{
     #mobileicons i{
         font-size: 1.5rem;
     }
+    
+    .hero-content{
+       width: 100%;
+       text-align: center;
+    }
 
     .hero-content h1{
       font-size: var(--h1-3);
