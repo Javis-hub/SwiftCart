@@ -214,6 +214,7 @@ section{
 
 #product h2{
     font-weight: 500;
+    text-decoration: underline;
 }
 
 #product a{
@@ -257,6 +258,7 @@ section{
 #sect h2{
     font-weight: 400;
     font-size: 1.9rem;
+    text-decoration: underline;
 }
 
 .sect-item{
@@ -411,7 +413,7 @@ section{
 
 #frame h1,
 #frame h2{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 2rem;
     text-align: center;
     color: #000000;
@@ -421,6 +423,7 @@ section{
 
 #frame h2{
     margin-bottom: .7rem;
+    font-weight: 400;
 }
 
 
@@ -440,11 +443,13 @@ iframe{
 
 #item{
     padding: 2rem inherit;
+    margin: .3rem 0;
     text-align: center;
 }
 
 #item h2{
     font-weight: 400;
+    text-decoration: underline;
 }
 
 #item button{
