@@ -15,6 +15,7 @@
 --section-2: 15px 3%;
 --section-3: 15px 2%;
 --font-family-2: 'archivo Black';
+--webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 *{
