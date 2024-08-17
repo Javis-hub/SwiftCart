@@ -629,7 +629,7 @@ section{
     }
 
     #mobilenav p:hover{
-        background-color: rgba(0, 0, 0, 0.874);
+        background-color: rgba(0, 0, 0, 0.30);
         color: #d6d6d6;
     }
 
