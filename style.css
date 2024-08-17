@@ -579,7 +579,6 @@ iframe{
 }
 
 .active, .collapse:hover{
-    color: #d6d6d6;
     border-bottom: 1.4px solid #000;
 }
 
@@ -591,7 +590,9 @@ iframe{
 }
 
 .list-foot li{
+    width: 100%;
     padding: .3rem;
+    border-bottom: 1.5px solid #000;
 }
 
 .list-foot li a{
