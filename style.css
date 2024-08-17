@@ -569,6 +569,7 @@ iframe{
     font-size: 1rem;
     background-color: transparent;
     font-weight: 400;
+    transition: .3s ease-in-out;
 }
 
 .footer-content{
@@ -579,7 +580,11 @@ iframe{
 
 .active, .collapse:hover{
     color: #d6d6d6;
+<<<<<<< HEAD
+    border-bottom: 1.4px solid black;
+=======
     background-color: rgba(0, 0, 0, .5);
+>>>>>>> e2fd9ab7ff556ac27e010994e33a61d7747b6482
 }
 
 .list-foot{
@@ -594,7 +599,7 @@ iframe{
 }
 
 .list-foot li a{
-    font-size: .8rem;
+    font-size: 1rem;
     transition: .3 ease;
 }
 
