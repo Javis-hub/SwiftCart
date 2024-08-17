@@ -249,7 +249,55 @@
         <p>By signing up you agree to recieve recurring automated marketing messages from UrbanWears.</p>
     </section>
 
-    
+    <section id="footer">
+        <div class="footer-item">
+            <button class="collapse">Contact Us</button>
+            <div class="footer-content">
+                <ul class="list-foot">
+                    <li><a href="">Call Us: 0705 123 8365</a></li>
+                    <li><a href="">Email</a></li>
+                    <li><a href="">Chat</a></li>
+                </ul>
+            </div>
+
+            <button class="collapse">Help</button>
+            <div class="footer-content">
+                <ul class="list-foot">
+                    <li><a href="">Order Returns</a></li>
+                    <li><a href="">Shipping</a></li>
+                    <li><a href="">Track Order</a></li>
+                    <li><a href="">Promotion & Discount</a></li>
+                    <li><a href="">FAQs</a></li>
+                </ul>
+            </div>
+
+            <button class="collapse">Company</button>
+            <div class="footer-content">
+                <ul class="list-foot">
+                    <li><a href="">About UrbanWears</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Terms & Use</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Accesibility Statement</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="socials">
+            <a href=""><i class='bx bxl-facebook-square'></i></a>
+            <a href=""><i class='bx bxl-instagram-alt'></i></a>
+            <a href=""><i class='bx bxl-twitter'></i></a>
+            <a href=""><i class='bx bxl-tiktok'></i></a>
+            <a href=""><i class='bx bxl-pinterest'></i></a>
+        </div>
+
+        <div class="close">
+            <p>All rights reserved</p>
+            <p>2024, UrbanWears.</p>
+        </div>
+    </section>
+
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     
     <script>
@@ -268,6 +316,21 @@
                 nav.classList.remove('active'); 
             }) //create the class list in the css
         } 
+
+
+        let coll = document.getElementsByClassName("collapse");
+    let i;
+
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    let content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
 
         let swiper = new Swiper(".mySwiper", {
       slidesPerView: 2,

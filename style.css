@@ -554,6 +554,74 @@ iframe{
     background-color: rgba(0, 0, 0, 0.874);
 }
 
+#footer{
+    background-color: #d6d6d6;
+    padding: 4rem inherit;
+    text-align: center;
+    padding: 3rem inherit;
+}
+
+.collapse{
+    width: 100%;
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+    background-color: transparent;
+    font-weight: 400;
+}
+
+.footer-content{
+    padding: 0 1.3rem;
+    display: none;
+    overflow: hidden;
+}
+
+.active, .collapse:hover{
+    color: #d6d6d6;
+    background-color: rgba(0, 0, 0, .30);
+}
+
+.list-foot{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-foot li{
+    padding-bottom: .2rem;
+}
+
+.list-foot li a{
+    font-size: .8rem;
+    transition: .3 ease;
+}
+
+.list-foot li a:hover{
+   color: #2f2f2f;
+}
+
+.socials{
+    padding: .6rem;
+}
+
+.socials i{
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .3s scale;
+}
+
+.socials i:hover{
+    transform: scale(1.1);
+}
+
+.close{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .8rem;
+    margin: .5rem 0;
+}
 
 
 
