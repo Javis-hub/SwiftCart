@@ -568,6 +568,8 @@ iframe{
     text-align: justify;
     background-color: transparent;
     font-weight: 400;
+    text-decoration: underline;
+    cursor: pointer;
     border-bottom: 1.4px solid #000;
     transition: .3s ease-in-out;
 }
@@ -576,6 +578,7 @@ iframe{
     padding: .5rem 0;
     display: none;
     overflow: hidden;
+    transition: .3s ease-in-out;
 }
 
 .active, .collapse:hover{
