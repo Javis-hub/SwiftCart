@@ -800,6 +800,13 @@ section{
     .hero-content button{
         width: var(--hero-bttn-3-width);
     }
+    
+
+    #product a,
+    #product p{
+     font-size: .85rem;
+    transition: .3s ease;
+    }
 
     .pro-card{
         width: 100%;
