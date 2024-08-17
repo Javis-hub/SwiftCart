@@ -582,7 +582,8 @@ section{
     }
 
     #mobilenav p:hover{
-        background-color: #f6ec82;
+        background-color: rgba(0, 0, 0, 0.874);
+        color: #d6d6d6;
     }
 
     #navform{
@@ -817,6 +818,11 @@ section{
     .one h2,
     .two h2{
         font-size: 1.8rem;
+    }
+
+    .one button,
+    .two button{
+        width: 40%;
     }
 
     iframe{
