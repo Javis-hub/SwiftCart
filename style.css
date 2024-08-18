@@ -149,7 +149,7 @@ section{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: linear-gradient(80deg, #00000047, #0000001a), url(/Images/Products/Banners/download\ \(2\).jpeg);
+    background-image: linear-gradient(80deg, #00000072, #0000003f), url(/Images/Products/Banners/download\ \(2\).jpeg);
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -522,7 +522,7 @@ iframe{
 
 #news h2{
     font-weight: 500;
-    padding: .5rem;
+    padding: .2rem;
 }
 
 .form{
@@ -530,7 +530,7 @@ iframe{
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    gap: .5rem;
+    gap: .2rem;
     transition: inherit;
 }
 
@@ -556,7 +556,6 @@ iframe{
 
 #footer{
     background-color: #d6d6d6;
-    padding: 4rem inherit;
     padding: 2rem 2%;
 }
 
