@@ -149,7 +149,7 @@ section{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: linear-gradient(80deg, #34312d59, #0000007e);
+    background-image: linear-gradient(80deg, #00000047, #0000001a), url(/Images/Products/Banners/HBX\ SS23\ Brand\ Campaign.mp4);
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
