@@ -6,11 +6,11 @@
 --color: #f6ec82;
 --h1: 3.5rem; /*@ full display*/
 --h1-2: 3rem;
---h1-3: 2rem;
+--h1-3: 1.7rem;
 --hero-bttn-1-width: 30%;
 --hero-bttn-2-width: 20%;
---hero-bttn-3-width: 53%;
---hero-bttn-3-height: 2rem;
+--hero-bttn-3-width: 50%;
+--hero-bttn-3-height: 1.7rem;
 --section-1: 20px 4%;
 --section-2: 15px 3%;
 --section-3: 15px 2%;
@@ -149,7 +149,7 @@ section{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: linear-gradient(80deg, #00000072, #0000003f), url(/Images/Products/Banners/download\ \(2\).jpeg);
+    background-image: linear-gradient(to bottom, #00000066, #0000007b), url(/Images/Products/Banners/download\ \(2\).jpeg);
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -159,7 +159,7 @@ section{
     overflow: hidden;
   }
 
-#herovideo{
+/* #herovideo{
   position: absolute;
   min-width: 100%;
   min-height: inherit;
@@ -167,7 +167,7 @@ section{
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
-}
+} */
 
 .hero-content{
     margin: 1rem 4%;
@@ -195,7 +195,7 @@ section{
 .hero-content button{
   width: var(--hero-bttn-1-width);
   height: 3.3rem;
-  border-radius: .8rem;
+  border-radius: .5rem;
   border: none;
   color: #fff;
   background-color: rgba(0, 0, 0, .30);
@@ -608,7 +608,7 @@ iframe{
 }
 
 .socials{
-    padding: .6rem;
+    padding: .6rem 0;
 }
 
 .socials i{
