@@ -483,7 +483,6 @@ iframe{
 }
 
 .item-card img:not(:hover){
-    transform: scale(.99);
     filter: brightness(.8);
 }
 
