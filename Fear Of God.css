@@ -189,6 +189,7 @@ section{
 
 .item-pro{
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     transition: .4s ease;
@@ -315,7 +316,7 @@ section{
     }
 
     #header{
-        position: fixed;
+        position: flex;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -381,7 +382,7 @@ section{
     }
 
     #mobilenav p:hover{
-        background-color: rgba(0, 0, 0, .3);
+        background-color: rgba(0, 0, 0, 0.30);
         color: #d6d6d6;
     }
 
@@ -442,6 +443,7 @@ section{
         cursor: pointer;
     }
 
+
     .item-des a,
     .item-des p{
         font-size: .78rem;
@@ -477,9 +479,6 @@ section{
 }
 
 @media (max-width: 620px){
-    .item-card{
-
-    }
     .item-des a,
     .item-des p{
     line-height: 1.1;
