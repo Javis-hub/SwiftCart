@@ -470,6 +470,7 @@ iframe{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    padding: 1rem 0;
     gap: 1rem;
     transition: .4s ease;
 }
