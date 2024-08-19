@@ -187,12 +187,12 @@ section{
   line-height: 1.2;
 }
 
-.hero-content h1 span{
+.hero-content span{
     font-size: 1.2rem;
 }
 .hero-content h2{
   line-height: 1.1;
-  font-weight: 500;
+  font-weight: 600;
   padding-bottom: .5rem;
 }
 
@@ -936,6 +936,7 @@ section{
 
     .hero-content h2{
         font-size: 1.3rem;
+        font-weight: 700;
     }
 
     .hero-content p{
