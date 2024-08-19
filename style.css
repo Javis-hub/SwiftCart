@@ -174,8 +174,8 @@ section{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%);
-    background-color: rgba(0, 0, 0, .6);
+    transform: translate(-50%, 10%);
+    background-color: rgba(0, 0, 0, .1);
     min-height: 50vh;
     transition: .3s ease;
 }
@@ -826,10 +826,6 @@ section{
 
 
 @media (max-width: 768px){
-    .hero-content{
-        padding: 2rem;
-    }
-
     .sect-card{
         width: 40%;
     }
@@ -933,10 +929,6 @@ section{
     
     .hero-content h1{
       font-size: var(--h1-3);
-    }
-
-    .hero-content{
-        margin: 0;
     }
 
     .hero-content h2{
