@@ -934,6 +934,10 @@ section{
       font-size: var(--h1-3);
     }
 
+    .hero-content span{
+        font-size: .8rem;
+    }
+
     .hero-content h2{
         font-size: 1.8rem;
         font-weight: 800;
