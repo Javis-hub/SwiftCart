@@ -149,10 +149,10 @@ section{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to bottom, #00000066, #0000007b);
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     min-height: inherit;
     padding: 60px 0;
     color: #d6d6d6;
