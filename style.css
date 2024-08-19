@@ -175,7 +175,7 @@ section{
     left: 50%;
     top: 50%;
     transform: translate(-50%, 10%);
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .2);
     min-height: 50vh;
     transition: .3s ease;
 }
