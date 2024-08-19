@@ -215,6 +215,10 @@ section{
     transition: inherit;
 }
 
+.item-card:hover{
+    box-shadow: 0 0 2px rgba(0, 0, 0, .6);
+}
+
 .item-des{
     padding: 0;
     text-align: center;
