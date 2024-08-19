@@ -198,7 +198,7 @@
 
 <section id="footer">
     <div class="footer-item">
-        <button class="dropDown">Contact Us</button>
+        <button class="collapse">Contact Us</button>
         <div class="footer-content">
             <ul class="list-foot">
                 <li><a href="">Call Us: 0705 123 8365</a></li>
@@ -207,7 +207,7 @@
             </ul>
         </div>
 
-        <button class="dropDown">Help</button>
+        <button class="collapse">Help</button>
         <div class="footer-content">
             <ul class="list-foot">
                 <li><a href="">Order Returns</a></li>
@@ -218,7 +218,7 @@
             </ul>
         </div>
 
-        <button class="dropDown">Company</button>
+        <button class="collapse">Company</button>
         <div class="footer-content">
             <ul class="list-foot">
                 <li><a href="">About UrbanWears</a></li>
@@ -238,7 +238,7 @@
         <a href=""><i class='bx bxl-pinterest'></i></a>
     </div>
 
-    <div class="close">
+    <div class="end">
         <p>All rights reserved</p>
         <p>2024, UrbanWears</p>
     </div>
@@ -262,32 +262,9 @@
       }) //create the class list in the css
   } 
 
-  let swiper = new Swiper(".mySwiper", {
-slidesPerView: 2,
-loop: true,
-spaceBetween: 10,
-pagination: {
-  el: ".swiper-pagination",
-  clickable: true,
-},
-breakpoints: {
-  640: {
-    slidesPerView: 2,
-    spaceBetween: 20,
-  },
-  768: {
-    slidesPerView: 4,
-    spaceBetween: 40,
-  },
-  1024: {
-    slidesPerView: 5,
-    spaceBetween: 50,
-  },
-},
-});
-
-let coll = document.getElementsByClassName("dropDown");
+let coll = document.getElementsByClassName("collapse");
     let i;
+
     for (i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
