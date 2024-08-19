@@ -516,7 +516,7 @@ iframe{
 #news{
     text-align: center;
     background-color: #d6d6d6;
-    min-height: 40vh;
+    min-height: 30vh;
     transition: .4s ease;
 }
 
