@@ -621,7 +621,7 @@ iframe{
     transform: scale(1.1);
 }
 
-.close{
+.end{
     display: flex;
     justify-content: space-between;
     align-items: center;
