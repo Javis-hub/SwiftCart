@@ -130,6 +130,9 @@ section{
 }
 
 #hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #000000;
     color: #d6d6d6;
     transition: .4s ease-in-out;
@@ -137,10 +140,6 @@ section{
 }
 
 .hero-flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     margin: 4rem;
     line-height: 34px;
 }
@@ -307,7 +306,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: .8rem;
+    font-size: .7rem;
     margin: .5rem 0;
 }
 
