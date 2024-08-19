@@ -152,7 +152,7 @@ section{
 .hero-sub{
     line-height: 18px;
     text-align: center;
-    padding: 3rem 0 0;
+    margin: 3rem;
 }
 
 .hero-sub a{
@@ -512,6 +512,10 @@ section{
     .hero-content h3{
         font-weight: 400;
         font-size: 1.4rem;
+    }
+
+    .hero-flex{
+        margin: 2rem 0 0;
     }
 
     .item-pro{
