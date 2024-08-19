@@ -483,9 +483,6 @@ iframe{
     transition: .4s ease;
 }
 
-.item-card img:not(:hover){
-    filter: brightness(.8);
-}
 
 .item-card{
     width: 23%;

@@ -204,9 +204,6 @@ section{
     transition: .4s ease;
 }
 
-.item-card img:not(:hover){
-    filter: brightness(.95);
-}
 
 .item-card{
     width: 24.9%;
