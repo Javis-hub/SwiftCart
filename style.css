@@ -187,6 +187,9 @@ section{
   line-height: 1.2;
 }
 
+.hero-content h1 span{
+    font-size: 1.2rem;
+}
 .hero-content h2{
   line-height: 1.1;
   font-weight: 500;
