@@ -147,14 +147,13 @@ section{
     text-align: center;
     padding: 3rem .4rem;
     border-radius: .8rem;
-    background-color: rgba(0, 0, 0, 0.621);
+    background-color: rgba(0, 0, 0, .30);
 }
-
 
 #hero h1{
     font-size: 3rem;
     color: #d6d6d6;
-    font-weight: 900;
+    font-weight: 500;
     transition: inherit;
 }
 
@@ -495,11 +494,6 @@ section{
 
     #mobileicons i{
         font-size: 1.5rem;
-    }
-
-    #hero{
-        background-position: center;
-        background-size: cover;
     }
 
     #hero h1{
