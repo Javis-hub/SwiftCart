@@ -136,7 +136,7 @@ section{
     background-color: #000;
     color: #d6d6d6;
     transition: .4s ease-in-out;
-    height: 90vh;
+    min-height: 90vh;
     background-size: auto;
     display: flex;
     justify-content: center;
