@@ -176,12 +176,13 @@ section{
 }
 
 #dropDown{
+    appearance: button;
     font-size: 1.2rem;
     font-weight: 700;
     text-align: justify;
     text-decoration: underline;
     cursor: pointer;
-    flex-basis: 1;
+    flex-basis: 0%;
     flex-grow: 1;
     flex-shrink: 1;
     display: flex;
@@ -195,7 +196,10 @@ section{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     text-indent: 0px;
-    tab-size: 4;
+    outline-width: 0.2rem;
+    outline-color: #f6ec82;
+    font-optical-sizing: auto;
+    font-stretch: 100%;
 }
 
 #brand{
