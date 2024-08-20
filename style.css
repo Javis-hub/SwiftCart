@@ -149,7 +149,7 @@ section{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: linear-gradient(80deg, #000000aa, #0000001b);
+    background-color: #000;
     display: flex;
     justify-content: center;
     overflow: hidden;
