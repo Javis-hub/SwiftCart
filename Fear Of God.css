@@ -130,9 +130,9 @@ section{
 }
 
 #hero{
-    background-image: url(/Images/Products/Banners/New\ Fear\ of\ God\ ESSENTIALS\ Is\ Still\ Available\ Online.jpeg);
+    background-image: url(/Images/Products/Banners/Page\ 2\ hero.png);
     background-repeat: no-repeat;
-    background-position: top;
+    background-size: cover;
     background-color: #000;
     color: #d6d6d6;
     transition: .4s ease-in-out;
@@ -498,6 +498,7 @@ section{
     }
 
     #hero{
+        background-image: url(/Images/Products/Banners/New\ Fear\ of\ God\ ESSENTIALS\ Is\ Still\ Available\ Online.jpeg);
         background-position: center;
         background-size: cover;
     }
