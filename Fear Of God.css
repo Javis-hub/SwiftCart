@@ -196,8 +196,7 @@ section{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     text-indent: 0px;
-    outline-width: 0.2rem;
-    outline-color: #f6ec82;
+    outline-width: 0.8px;
     font-optical-sizing: auto;
     font-stretch: 100%;
 }
