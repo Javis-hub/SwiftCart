@@ -149,7 +149,7 @@ section{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #000;
+    background-image: linear-gradient(#000, #000), url(Images/Products/Banners/Lo);
     display: flex;
     justify-content: center;
     overflow: hidden;
