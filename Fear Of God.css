@@ -188,6 +188,7 @@ section{
 #brand{
     text-align: justify;
     padding: .5rem 5px;
+    font-size: .8rem;
     outline: none;
     border-radius: .3rem;
 }
