@@ -440,6 +440,10 @@ section{
     .item-des p{
         font-size: .78rem;
     }
+
+    #hero{
+        height: 100vh;
+    }
 }
 
 @media (max-width: 868px){
@@ -499,6 +503,7 @@ section{
         background-image: url(/Images/Products/Banners/New\ Fear\ of\ God\ ESSENTIALS\ Is\ Still\ Available\ Online.jpeg);
         background-position: center;
         background-size: cover;
+        height: 80vh;
     }
 
 
