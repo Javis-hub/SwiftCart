@@ -130,39 +130,31 @@ section{
 }
 
 #hero{
+    background-image: url(Images/I/New\ Fear\ of\ God\ ESSENTIALS\ Is\ Still\ Available\ Online.jpeg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #000;
+    color: #d6d6d6;
+    transition: .4s ease-in-out;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
-    color: #d6d6d6;
-    transition: .4s ease-in-out;
-    margin-bottom: 1.4rem;
 }
 
-.hero-flex{
-    margin: 4rem;
-    line-height: 34px;
-}
 
 .hero-content{
     text-align: center;
-    margin: 3rem;
+    padding: 3rem .4rem;
+    border-radius: .8rem;
+    background-color: rgba(0, 0, 0, 0.621);
 }
 
-.hero-sub{
-    line-height: 18px;
-    text-align: center;
-    margin: 3rem;
-}
-
-.hero-sub a{
-    text-decoration: underline;
-}
 
 #hero h1{
     font-size: 3rem;
     color: #d6d6d6;
-    font-weight: 500;
+    font-weight: 900;
     transition: inherit;
 }
 
@@ -503,6 +495,11 @@ section{
 
     #mobileicons i{
         font-size: 1.5rem;
+    }
+
+    #hero{
+        background-position: center;
+        background-size: cover;
     }
 
     #hero h1{
