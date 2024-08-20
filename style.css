@@ -917,9 +917,6 @@ section{
     section{
         padding: 10px 1%;
     }
-    #container{
-        min-height: 80vh;
-    }
     #navbar{
         padding: 4rem .3rem 7rem;
     }
@@ -934,7 +931,7 @@ section{
     }
 
     #hero{
-        height: 80vh;
+        height: 75vh;
     }
     
     .hero-content h1{
