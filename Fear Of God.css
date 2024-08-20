@@ -133,14 +133,12 @@ section{
     background-image: url(/Images/Products/Banners/Page\ 2\ hero.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #000;
     color: #d6d6d6;
     transition: .4s ease-in-out;
-    min-height: 90vh;
-    background-size: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 80vh;
 }
 
 
