@@ -149,7 +149,7 @@ section{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: linear-gradient(#000, #000), url(Images/Products/Banners/Lo);
+    background-image: linear-gradient(hsla(0, 0%, 0%, 0.179), #0000008b), url(Images/Products/Banners/Lookbook\ _\ ESSENTIALS\ Spring\ 2022\ Core.jpeg);
     display: flex;
     justify-content: center;
     overflow: hidden;
