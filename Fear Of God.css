@@ -169,6 +169,7 @@ section{
 
 #about{
     margin: 2rem 0;
+    background-color: #d6d6d6;
     transition: .4s;
     text-decoration: none;
     border: none;
@@ -188,7 +189,7 @@ section{
 #brand{
     text-align: justify;
     padding: .5rem 5px;
-    font-size: .8rem;
+    font-size: .9rem;
     outline: none;
     border-radius: .3rem;
 }
