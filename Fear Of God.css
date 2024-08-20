@@ -173,21 +173,23 @@ section{
 }
 
 #about button{
-    background-color: #f6ec82;
     padding: 1rem 5px;
     font-size: 1.2rem;
     font-weight: 700;
     cursor: pointer;
+    background-color: #d6d6d6;
     border-radius: .3rem;
+    border: none;
     transition: .4s ease-in-out;
 }
 
 #brand{
     text-align: justify;
+    border: none;
     padding: .5rem 5px;
-    background-color: #f6ec82;
     border-radius: .3rem;
 }
+
 
 #item{
     text-align: center;
