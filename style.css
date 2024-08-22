@@ -262,6 +262,10 @@ section{
     font-size: .9rem;
 }
 
+.card-des p{
+    color: red;
+}
+
 #sect{
     box-sizing: border-box;
     text-align: center;
