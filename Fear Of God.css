@@ -263,6 +263,10 @@ section{
     font-weight: 500;
 }
 
+.item-des p{
+    color: red;
+}
+
 .item-des a:hover{
     color: #251b1b;
     text-decoration: underline;
