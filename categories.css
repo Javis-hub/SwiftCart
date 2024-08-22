@@ -164,6 +164,7 @@ img{
 .heading{
     display: flex;
     text-align: center;
+    font-weight: 400;
     padding-bottom: .5rem;
 }
 
@@ -437,16 +438,21 @@ img{
 
     #container{
         padding: 3rem 2%;
+        text-align: center;
     }
   }
 
   @media (max-width: 600px){
     .row{
-        align-content: ;
+        align-content: center;
         flex-direction: column;
     }
     .column{
         width: 100%;
+    }
+
+    .heading{
+        font-size: 1.2rem;
     }
   }
 
