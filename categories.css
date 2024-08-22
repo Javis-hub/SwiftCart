@@ -167,8 +167,8 @@ img{
 
 .heading{
     display: flex;
-    padding-bottom: .5rem;
     text-align: center;
+    padding: 1rem;
 }
 .row{
     display: flex;
