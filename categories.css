@@ -162,10 +162,13 @@ img{
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    margin: 1.3rem 0;
 }
 
 .heading{
+    display: flex;
     padding-bottom: .5rem;
+    text-align: center;
 }
 .row{
     display: flex;
