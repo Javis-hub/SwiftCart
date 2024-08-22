@@ -440,6 +440,10 @@ img{
     .column{
         width: 100%;
     }
+
+    .container{
+        margin: .7rem 0;
+    }
 }
 
 @media (max-width: 368px){
