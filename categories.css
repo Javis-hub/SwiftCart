@@ -138,6 +138,18 @@ section{
     display: none;
 }
 
+<<<<<<< HEAD
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+=======
+>>>>>>> a8d44b0f98a9d5418e533777f623dd589d7acf4a
 img{
     height: auto;
     max-width: 100%;
@@ -158,6 +170,7 @@ img{
     text-align: center;
     padding-bottom: .5rem;
 }
+
 .row{
     display: flex;
     justify-content: space-between;
@@ -218,7 +231,7 @@ img{
     border-radius: .5rem;
   }
 
-  #footer{
+#footer{
     background-color: #d6d6d6;
 }
 
