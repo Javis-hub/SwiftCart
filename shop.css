@@ -197,6 +197,83 @@ section{
     width: 100%;
 }
 
+#item{
+    padding: 2rem inherit;
+    margin: .3rem 0;
+    text-align: center;
+}
+
+#item h2{
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+#item button{
+    padding: .5rem 1.5rem;
+    background-color: #000;
+    color: #d6d6d6;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+#item button:hover{
+    background-color: #000000ae;
+}
+
+.item-pro{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 1rem;
+    transition: .4s ease;
+}
+
+.item-card img{
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    object-position: center;
+    transition: .4s ease;
+}
+
+
+.item-card{
+    width: 23%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: inherit;
+}
+
+.item-card:hover{
+    box-shadow: 0 0 2px rgba(0, 0, 0, .6);
+}
+
+.item-des{
+    padding: 0;
+    text-align: justify;
+    transition: inherit;
+}
+
+
+.item-des a,
+.item-des p{
+    line-height: 1.1;
+    font-size: .79rem;
+    font-weight: 500;
+}
+
+.item-des p{
+    color: red;
+}
+
+.item-des a:hover{
+    color: #251b1b;
+    text-decoration: underline;
+}
+
 @media (max-width: 900px) {
     section{
         padding: 1rem 2%;
@@ -344,6 +421,37 @@ section{
     .head-text h2{
         font-size: 2rem;
     }
+
+    .item-card{
+        width: 40%;
+    }
+
+    .item-des a,
+    .item-des p{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 668px){
+    .item-card{
+        width: 42%;
+        padding: .2rem;
+    }
+
+    .item-card{
+        width: 45%;
+        padding: 0;
+    }
+
+    .item-des{
+        text-align: center;
+    }
+
+    .item-des a,
+    .item-des p{
+        font-weight: 400;
+        font-size: .72rem;
+    }
 }
 
 @media (max-width: 468px){
@@ -372,4 +480,15 @@ section{
     .head-text h2 span{
         font-size: 1.5rem;
     }
+
+    .item-card{
+        width: 100%;
+    }
+
+    .item-des a,
+    .item-des p{
+        font-size: .9rem;
+        font-weight: 400;
+    }
+
 }
