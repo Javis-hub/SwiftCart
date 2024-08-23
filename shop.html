@@ -5,27 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
     <link rel="stylesheet" href="shop.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link
+    rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <section id="header" class="padding">
-        <a href="/index.html">SwiftCart</a>
+    <section id="header">
+        <a href="" class="logo">UrbanWEARS</a>
 
-        <nav>
-            <ul id="nabar">
-                <li><a href="/categories">Categories</a></li>
-                <li><a href="/shop">Shop</a></li>
-            </ul>
-            <div id="navicon">
-                <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
-                <p><i class="fa-solid fa-user"></i></p>
-                <a href="/create">Sign in</a>
-            </div>
-        </nav>
+    <ul id="navbar">
+        <li><a href="/collection.html">Collections</a></li>
+        <li><a href="/shop">Shop</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">About us</a></li>
 
-        <div id="mobile">
-            <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
-            <i id="bar" class="fas fa-bars"></i>
+        <div id="mobilenav">
+            <p onclick="window.location.href='/collection.html'">Collections</p>
+            <p onclick="window.location.href='/shop.html'">Shop</p>
+            <p onclick="window.location.href='/For Men.html'">Men</p>
+            <p onclick="window.location.href='/For Women.html'">Women</p>
+            <p onclick="window.location.href='/For Women.html'">Blog</p>
+            <p onclick="window.location.href='/For Women.html'">About Us</p>
+        </div>
+        
+        <div id="navicon">
+           <a href="/cart"><i class='bx bx-shopping-bag' ></i></a>
+           <a href=""><i class='bx bxs-user-circle'></i></a>
+
+            <p onclick="window.location.href='/form'"><i class="fa-solid fa-user"></i></p>
+            <i class="fas fa-times" ></i> 
+            <i class='bx bx-x' id="close" style="font-size: 2rem;"></i>
+        </div>
+    </ul>
+
+    <div id="mobileicons">
+        <a href=""><i class='bx bxs-user-circle'></i></a>
+        <a href=""><i class='bx bx-shopping-bag' ></i></a>
+    </div>
+
+    <div id="mobile">
+        <i id="bar" class='bx bx-menu-alt-right' style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></i>
+    </div>
+    </section>
+
+    <section class="heading">
+        <div class="space">
+            <P>LIMITED OFFER</P>
+        </div>
+        <div class="head-text">
+            <h2>FLASHSALE <span>30% OFF</span></h2>
+            <a href="">Terms & Conditions applies</a>    
         </div>
     </section>
 
