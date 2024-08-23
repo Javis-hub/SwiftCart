@@ -140,6 +140,9 @@ section{
 
 .heading{
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: orangered;
     min-height: 50vh;
     text-align: center;
