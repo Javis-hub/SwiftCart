@@ -167,7 +167,7 @@ section{
 }
 
 .head-text h2 span{
-    background-color: #ffcc00;
+    background-color: #ff9900;
     font-size: 3rem;
     padding-inline: .4rem;
 }
@@ -176,7 +176,7 @@ section{
     position: relative;
     isolation: isolate;
     color: #d6d6d6;
-    padding-bottom: .2rem;
+    padding-bottom: .1rem;
 }
 
 .head-text p{
