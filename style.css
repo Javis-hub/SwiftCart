@@ -923,7 +923,7 @@ section{
 
 @media (max-width: 468px) {
     section{
-        padding: 10px 2.5%;
+        padding: 10px 3%;
     }
     #navbar{
         padding: 4rem .3rem 7rem;
