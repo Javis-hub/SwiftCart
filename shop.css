@@ -147,10 +147,6 @@ section{
     transition: .4s ease;
 }
 
-.space{
-    display: flex;
-    color: #fff;
-}
 
 .head-text{
     display: inline-flex;
@@ -177,9 +173,12 @@ section{
 .head-text a{
     position: relative;
     isolation: isolate;
-    color: #fff;
+    color: #d6d6d6;
     padding-bottom: .2rem;
+}
 
+.head-text p{
+    color: #d6d6d6;
 }
 
 .head-text a::after{
@@ -189,7 +188,7 @@ section{
     width: 0;
     left: 0;
     bottom: 0;
-    background-color: #fff;
+    background-color: #d6d6d6;
     transition: .2s;
 }
 .head-text a:hover::after{
