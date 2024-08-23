@@ -141,7 +141,7 @@ section{
 .heading{
     position: relative;
     background-color: orangered;
-    min-height: 40vh;
+    min-height: 50vh;
     text-align: center;
     flex-direction: column;
     transition: .4s ease;
@@ -152,7 +152,6 @@ section{
     display: inline-flex;
     flex-direction: column;
     padding: .5rem 0;
-    margin: 5rem 0 1rem;
     align-items: center;
     justify-content: center;
     
@@ -346,12 +345,9 @@ section{
 
 @media (max-width: 468px){
     .heading{
-        min-height: 35vh;
+        min-height: 40vh;
     }
 
-    .head-text{
-        margin: 3rem 0 1rem;
-    }
     .head-text h2{
         font-size: 1.8rem;
     }
@@ -364,10 +360,6 @@ section{
 @media (max-width: 378px){
     .heading{
         height: 45vh;
-    }
-
-    .head-text{
-        margin: 2rem 0 1rem;
     }
 
     .head-text h2{
