@@ -287,7 +287,7 @@ section{
     color: #fff;
 }
 
-.bttn button:nth-child(2):hover{
+.bttn-two:hover{
     background-color: #251b1b;
     cursor: pointer;
 }
