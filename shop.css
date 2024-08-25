@@ -207,7 +207,6 @@ section{
     text-decoration: underline;
 }
 
-
 .item-pro{
     display: flex;
     justify-content: space-between;
@@ -275,7 +274,7 @@ section{
     color: #fff;
 }
 
-.bttn-two:hover{
+.bttn button:hover:nth-child(2){
     background-color: #251b1b;
     cursor: pointer;
 }
