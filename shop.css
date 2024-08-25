@@ -273,6 +273,25 @@ section{
     text-decoration: underline;
 }
 
+.bttn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .4rem;
+}
+
+.bttn button{
+    padding: .5rem 1.5rem;
+    background-color: #000000;
+    border: none;
+    color: #fff;
+}
+
+.bttn button:nth-child(2):hover{
+    background-color: #251b1b;
+    cursor: pointer;
+}
+
 #footer{
     background-color: #d6d6d6;
 }
