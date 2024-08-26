@@ -271,11 +271,12 @@ section{
     padding: .5rem 1.5rem;
     background-color: #000000;
     border: none;
-    color: #fff;
+    color: #d6d6d6;
 }
 
 .bttn button:nth-child(2):hover{
-    background-color: #251b1b;
+    background-color: #1d1d1d;
+    color: #d6d6d6;
     cursor: pointer;
 }
 
