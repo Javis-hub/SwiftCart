@@ -241,10 +241,6 @@ section{
     box-shadow: 0 10px 9px rgba(0, 0, 0, 0.24);
 }
 
-.item-card:hover{
-    transform: scale(1.01);
-}
-
 .item-des{
     padding: 0;
     text-align: justify;
@@ -523,11 +519,11 @@ section{
 
     .item-card{
         width: 45%;
-        padding: 0;
+        padding: .5rem;
     }
 
     .item-des{
-        text-align: center;
+        text-align: justify;
     }
 
     .item-des a,
