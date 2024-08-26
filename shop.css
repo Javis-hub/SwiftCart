@@ -274,11 +274,11 @@ section{
     color: #d6d6d6;
 }
 
-.bttn button:nth-child(2):hover{
+/* .bttn button:nth-child(2):hover{
     background-color: #1d1d1d;
     color: #d6d6d6;
     cursor: pointer;
-}
+} */
 
 #footer{
     background-color: #d6d6d6;
