@@ -235,7 +235,7 @@ section{
 }
 
 .item-card:hover{
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.305);   
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.305);   
 }
 
 .item-des{
