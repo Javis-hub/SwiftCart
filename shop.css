@@ -143,7 +143,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f98c1f;
+    background-color: #000000;
     min-height: 50vh;
     text-align: center;
     flex-direction: column;
@@ -162,12 +162,14 @@ section{
 
 .head-text h2{
     font-size: 2.5rem;
+    color: #fff;
     padding: .5rem;
     line-height: 1.15;
 }
 
 .head-text h2 span{
-    background-color: #ff9900;
+    background-color: #ffffff;
+    color: #000;
     font-size: 3rem;
     padding-inline: .4rem;
 }
@@ -545,7 +547,7 @@ section{
     }
 
     .item-card{
-        width: 43%;
+        width: 46%;
     }
 }
 
