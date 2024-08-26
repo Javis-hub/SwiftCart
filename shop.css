@@ -517,7 +517,7 @@ section{
 @media (max-width: 668px){
     .item-card{
         width: 42%;
-        padding: 1rem;
+        padding: 1.2rem;
     }
 
     .item-des{
