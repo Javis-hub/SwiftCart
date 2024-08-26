@@ -223,7 +223,11 @@ section{
     border-radius: .5rem;
     cursor: pointer;
     object-position: center;
-    transition: .4s ease;
+    transition: .2s ease;
+}
+
+.item-card img:not(:hover){
+    transform: scale(.99);
 }
 
 
@@ -231,11 +235,12 @@ section{
     width: 22.5%;
     padding: 1rem;
     margin-bottom: 1rem;
-    transition: .4s;
+    transition: .2s;
+    box-shadow: 0 5px 2px rgba(0, 0, 0, 0.305);
 }
 
 .item-card:hover{
-    box-shadow: 10px, 15px, 20px rgba(0, 0, 0, 0.305);   
+    box-shadow: 0 10px 9px rgba(0, 0, 0, 0.24);  
 }
 
 .item-des{
