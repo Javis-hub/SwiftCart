@@ -241,8 +241,8 @@ section{
     box-shadow: 0 10px 9px rgba(0, 0, 0, 0.24);
 }
 
-.item-card :has:hover{
-    box-shadow: 0 5px 2px rgba(0, 0, 0, 0.305); 
+.item-card:hover{
+    transform: scale(1.01);
 }
 
 .item-des{
