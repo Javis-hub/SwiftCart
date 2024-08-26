@@ -222,6 +222,7 @@ section{
     object-fit: cover;
     border-radius: .5rem;
     cursor: pointer;
+    filter: brightness(.85);
     object-position: center;
     transition: .2s ease;
 }
