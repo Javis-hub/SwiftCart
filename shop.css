@@ -513,11 +513,6 @@ section{
 @media (max-width: 668px){
     .item-card{
         width: 42%;
-        padding: .2rem;
-    }
-
-    .item-card{
-        width: 45%;
         padding: .5rem;
     }
 
@@ -543,6 +538,10 @@ section{
     
     .head-text h2 span{
         font-size: 2.3rem;
+    }
+
+    .item-card{
+        width: 43%;
     }
 }
 
