@@ -231,7 +231,7 @@ section{
     width: 22.5%;
     padding: 1rem;
     margin-bottom: 1rem;
-    
+    box-shadow: 0 5px 2px rgba(0, 0, 0, 0.305);
     transition: .4s;
 }
 
