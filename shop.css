@@ -227,18 +227,17 @@ section{
     transition: .2s ease;
 }
 
-/* .item-card img:not(:hover){
+.item-card:not(:hover){
     transform: scale(.99);
-} */
+}
 
 
 .item-card{
     width: 22.5%;
     padding: 1rem;
     margin-bottom: 1rem;
-    transition: .2s;
+    transition: .3s;
     border-radius: .5rem;
-    box-shadow: 0 10px 9px rgba(0, 0, 0, 0.24);
 }
 
 .item-des{
