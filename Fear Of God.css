@@ -224,8 +224,26 @@ section{
 
 .item-des a{
     font-weight: 600;
+    position: relative;
+    isolation: isolate;
+    padding-bottom: 3px;
+    text-transform: uppercase;
 }
 
+.item-des a::after{
+    position: absolute;
+    content: "";
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    width: 0;
+    transition: .3s ease;
+}
+
+.item-des a:hover::after{
+    width: 100%;
+}
 .item-des p{
     color: red;
     font-weight: 700;
