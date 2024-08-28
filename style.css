@@ -247,6 +247,7 @@ section{
     height: auto;
     object-position: center;
     object-fit: cover;
+    filter: brightness(.95);
     border-radius: .5rem;
 }
 
@@ -495,6 +496,7 @@ iframe{
     width: 100%;
     object-fit: cover;
     cursor: pointer;
+    filter: brightness(.85);
     object-position: center;
     transition: .4s ease;
 }
