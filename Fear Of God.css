@@ -505,34 +505,11 @@ section{
         width: 45%;
         padding: .5rem;
     }
-
-    .item-des{
-        text-align: center;
-    }
-
-    .item-des a,
-    .item-des p{
-        font-weight: 400;
-        font-size: .75rem;
-    }
 }
 
-@media (max-width: 376px){
-    .item-des a,
-    .item-des p{
-        font-size: .68rem;
-    }
-}
-
-@media (max-width: 325px){
+@media (max-width: 368px){
     .item-card{
         width: 100%;
-    }
-
-    .item-des a,
-    .item-des p{
-        font-weight: 400;
-        font-size: .9rem;
     }
 }
 
