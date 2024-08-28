@@ -258,7 +258,8 @@ section{
 }
 
 .card-des{
-    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
     text-align: justify;
     font-size: .9rem;
 }
@@ -514,7 +515,8 @@ iframe{
 }
 
 .item-des{
-    padding: 0;
+    display: flex;
+    flex-direction: column;
     text-align: justify;
     transition: inherit;
 }
