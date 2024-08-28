@@ -266,13 +266,8 @@ section{
     text-align: justify;
 }
 
-.card-des a:hover{
-    transform: scale(1.09);
-}
-
 .card-des p{
-    color: red;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 #sect{
@@ -532,8 +527,7 @@ iframe{
 }
 
 .item-des p{
-    color: red;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .item-des a:hover{
