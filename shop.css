@@ -229,10 +229,6 @@ section{
     transition: .2s ease;
 }
 
-.item-card img:not(:hover){
-    transform: scale(.99);
-}
-
 
 .item-card{
     width: 22.5%;
@@ -240,12 +236,11 @@ section{
     margin-bottom: 1rem;
     transition: .3s;
     border-radius: .5rem;
-    box-shadow: 0 5px 2px rgba(0, 0, 0, 0.305);
 }
 
 .item-card:hover{
-    box-shadow: transparent;
-    border: none;
+    transform: scale(.99);
+    box-shadow: 0 0 2px rgba(0, 0, 0, .6);
 }
 
 .item-des{
@@ -257,19 +252,13 @@ section{
     text-align: justify;
 }
 
-
-.item-des a,
-.item-des p{
-    font-weight: 500;
-}
-
 .item-des p{
     color: red;
+    font-weight: 700;
 }
 
 .item-des a:hover{
     color: #251b1b;
-    transform: scale(.92);
 }
 
 .bttn{
@@ -512,11 +501,6 @@ section{
     .item-card{
         width: 40%;
     }
-
-    .item-des a,
-    .item-des p{
-        font-size: .8rem;
-    }
 }
 
 @media (max-width: 668px){
@@ -569,12 +553,6 @@ section{
 
     .item-card{
         width: 100%;
-    }
-
-    .item-des a,
-    .item-des p{
-        font-size: .9rem;
-        font-weight: 400;
     }
 
 }

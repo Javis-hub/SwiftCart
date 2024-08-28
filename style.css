@@ -267,6 +267,7 @@ section{
 }
 
 .card-des p{
+    color: red;
     font-weight: 700;
 }
 
@@ -513,6 +514,7 @@ iframe{
 }
 
 .item-card:hover{
+    transform: scale(.99);
     box-shadow: 0 0 2px rgba(0, 0, 0, .6);
 }
 
@@ -527,6 +529,7 @@ iframe{
 }
 
 .item-des p{
+    color: red;
     font-weight: 700;
 }
 
