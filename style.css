@@ -1078,7 +1078,7 @@ iframe{
 
     .item-card{
         width: 46%;
-        padding: .5rem 0;
+        padding: .5rem .2rem;
     }
 
     #news{
