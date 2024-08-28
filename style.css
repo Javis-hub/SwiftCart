@@ -274,6 +274,7 @@ html,body{
 }
 
 .card-des a{
+    font-size: .9rem;
     font-weight: 400;
 }
 
@@ -553,6 +554,7 @@ iframe{
 }
 
 .item-des a{
+    font-size: .9rem;
     font-weight: 400;
 }
 
@@ -964,14 +966,15 @@ iframe{
     }
 
     .item-des a{
-        font-size: .9rem;
+        font-size: .85rem;
+        font-size: 350;
     }
 
     .card-des button,
     .item-des button{
         border-radius: .3rem;
         padding: .55rem 0;
-        font-size: .9rem;
+        font-size: .85rem;
     }
 
     .card-des button i,
