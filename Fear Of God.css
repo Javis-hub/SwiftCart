@@ -236,7 +236,7 @@ section{
 }
 
 .item-des button{
-    padding: .3rem;
+    padding: .5rem;
     border-radius: .5rem;
     border: none;
     color: #d6d6d6;
@@ -490,6 +490,10 @@ section{
 
     .item-des a{
         font-size: .9rem;
+    }
+
+    .item-des button{
+        padding: .3rem;
     }
 }
 

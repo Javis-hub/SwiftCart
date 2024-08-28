@@ -584,7 +584,7 @@ iframe{
 }
 
 .item-des button{
-    padding: .3rem;
+    padding: .5rem;
     border-radius: .5rem;
     border: none;
     color: #d6d6d6;
@@ -968,6 +968,11 @@ iframe{
 
     .item-des a{
         font-size: .9rem;
+    }
+
+    .card-des button,
+    .item-des button{
+        padding: .3rem;
     }
 
     #news h2{
