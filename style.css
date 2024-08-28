@@ -973,7 +973,7 @@ iframe{
     .card-des button,
     .item-des button{
         border-radius: .3rem;
-        padding: 0;
+        padding: .2rem;
         font-size: .9rem;
     }
 

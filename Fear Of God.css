@@ -493,7 +493,7 @@ section{
     }
 
     .item-des button{
-        padding: 0;
+        padding: .2rem;
         border-radius: .3rem;
         font-size: .9rem;
     }
