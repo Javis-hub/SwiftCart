@@ -251,12 +251,11 @@ html,body{
     height: auto;
     object-position: center;
     object-fit: cover;
-    filter: brightness(.95);
     border-radius: .5rem;
 }
 
 .item-card img:hover{
-    filter: brightness(1);
+    filter: brightness(.95);
 }
 
 .card{
@@ -275,7 +274,7 @@ html,body{
 }
 
 .card-des a{
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .card-des a:hover{
@@ -523,13 +522,12 @@ iframe{
     width: 100%;
     object-fit: cover;
     cursor: pointer;
-    filter: brightness(.85);
     object-position: center;
     transition: .4s ease;
 }
 
 .item-card img:hover{
-    filter: brightness(1);
+    filter: brightness(.95);
 }
 
 
@@ -541,7 +539,7 @@ iframe{
 }
 
 .item-card:hover{
-    box-shadow: 0 0 18px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.099);
 }
 
 .item-des{
@@ -555,11 +553,7 @@ iframe{
 }
 
 .item-des a{
-    font-weight: 600;
-}
-
-.item-des a:hover{
-    text-decoration: underline;
+    font-weight: 400;
 }
 
 .item-des p{
@@ -568,6 +562,7 @@ iframe{
 }
 
 .item-des a:hover{
+    text-decoration: underline;
     color: #251b1b;
 }
 

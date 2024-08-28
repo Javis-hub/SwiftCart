@@ -223,13 +223,12 @@ section{
     max-width: 100%;
     object-fit: cover;
     cursor: pointer;
-    filter: brightness(.95);
     object-position: center;
     transition: .2s ease;
 }
 
 .item-card img:hover{
-    filter: brightness(1);
+    filter: brightness(.95);
 }
 
 
@@ -254,8 +253,9 @@ section{
 }
 
 .item-des a{
+    font-size: .9rem;
     font-weight: 400;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .item-des a:hover{
