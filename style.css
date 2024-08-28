@@ -270,6 +270,10 @@ html,body{
     text-align: justify;
 }
 
+.card-des a{
+    font-weight: 600;
+}
+
 .card-des p{
     color: red;
     font-weight: 700;
@@ -529,6 +533,10 @@ iframe{
     white-space: nowrap;
     text-align: justify;
     transition: inherit;
+}
+
+.item-des a{
+    font-weight: 600;
 }
 
 .item-des p{

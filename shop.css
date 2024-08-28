@@ -251,6 +251,10 @@ section{
     text-align: justify;
 }
 
+.item-des a{
+    font-weight: 600;
+}
+
 .item-des p{
     color: red;
     font-weight: 700;
