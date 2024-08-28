@@ -666,10 +666,6 @@ iframe{
 
 
 @media (max-width: 900px) {
-section{
-        padding: 1rem 2%;
-    }
-
     #header{
         position: flex;
         display: flex;
@@ -834,7 +830,7 @@ section{
 
     .pro-card{
         width: 100%;
-        padding: 3rem 1% 3rem;
+        padding: 3rem;
     }
 
     .item-card{
@@ -892,6 +888,9 @@ section{
         font-size: var(--h1-3);
     }
     
+    .card-des a{
+        font-size: .9rem;
+    }
     .sect-card{
         padding: .5rem;
         width: 40%;
@@ -914,6 +913,10 @@ section{
         width: 42%;
     }
 
+    .item-des a{
+        font-size: .9rem;
+    }
+
     #news h2{
         font-size: 1.3rem;
     }
@@ -925,9 +928,6 @@ section{
 
 
 @media (max-width: 468px) {
-    section{
-        padding: 10px 3%;
-    }
     #navbar{
         padding: 4rem .3rem 7rem;
     }

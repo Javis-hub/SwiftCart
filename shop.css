@@ -355,10 +355,6 @@ section{
 }
 
 @media (max-width: 900px) {
-    section{
-        padding: 1rem 2%;
-    }
-
     #header{
         position: flex;
         display: flex;
@@ -489,11 +485,6 @@ section{
 }
 
 @media (max-width: 768px){
-    section{
-        padding: 20px 2%;
-    }
-
-
     .head-text{
         margin: 4rem 0;
     }
@@ -515,6 +506,10 @@ section{
 
     .item-des{
         text-align: justify;
+    }
+
+    .item-des a{
+        font-size: .9rem;
     }
 }
 
