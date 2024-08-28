@@ -234,6 +234,25 @@ section{
     color: red;
     font-weight: 700;
 }
+
+.item-des button{
+    padding: .5rem;
+    border-radius: .5rem;
+    border: none;
+    color: #d6d6d6;
+    text-align: center;
+    background-color: #000000;
+}
+
+.item-des button:hover{
+    background-color: #f3d662;
+    color: #000;
+}    
+
+.item-des button i{
+    margin-right: .3rem;
+}
+
 #footer{
     background-color: #d6d6d6;
 }
