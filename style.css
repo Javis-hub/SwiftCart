@@ -812,7 +812,7 @@ section{
 
     .item-card{
         width: 23%;
-        padding: .8rem;
+        padding: .9rem;
     }
     
 }
@@ -912,7 +912,7 @@ section{
 
     .item-card{
         width: 42%;
-        padding: .2rem;
+        padding: .5rem;
     }
 
     #news h2{
@@ -1014,11 +1014,10 @@ section{
 
     .item-card{
         width: 45%;
-        padding: 0;
     }
 
     .item-des{
-        text-align: center;
+        text-align: justify;
     }
 
     .item-des a,
