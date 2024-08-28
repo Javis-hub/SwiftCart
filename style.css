@@ -260,7 +260,7 @@ section{
 .card-des{
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
+    text-overflow: eclipse;
     text-align: justify;
     font-size: .9rem;
 }
@@ -518,7 +518,7 @@ iframe{
 .item-des{
     display: flex;
     flex-direction: column;
-    min-width: fit-content;
+    text-overflow: eclipse;
     text-align: justify;
     transition: inherit;
 }
@@ -526,7 +526,6 @@ iframe{
 
 .item-des a,
 .item-des p{
-    line-height: 1.1;
     font-size: .79rem;
     font-weight: 500;
 }
