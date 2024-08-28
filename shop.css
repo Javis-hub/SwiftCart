@@ -253,6 +253,7 @@ section{
 
 .item-des a{
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .item-des p{
