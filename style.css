@@ -287,6 +287,25 @@ html,body{
     font-weight: 700;
 }
 
+.card-des button{
+    width: 100%;
+    padding: .3rem;
+    border-radius: .5rem;
+    border: none;
+    color: #d6d6d6;
+    text-align: center;
+    background-color: #000000;
+}
+
+.card-des button:hover{
+    background-color: #f3d662;
+    color: #000;
+}    
+
+.card-des button i{
+    margin-right: .3rem;
+}
+
 #sect{
     box-sizing: border-box;
     text-align: center;
@@ -565,7 +584,7 @@ iframe{
 }
 
 .item-des button{
-    padding: .5rem;
+    padding: .3rem;
     border-radius: .5rem;
     border: none;
     color: #d6d6d6;
