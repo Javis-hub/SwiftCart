@@ -597,7 +597,7 @@ iframe{
     border: none;
 }
 
-.go button{
+.go button:hover{
     background-color: #b2adad;
     color: #000;
 }
