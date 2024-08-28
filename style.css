@@ -508,7 +508,6 @@ iframe{
     width: 100%;
     object-fit: cover;
     cursor: pointer;
-    border-radius: .5rem;
     filter: brightness(.85);
     object-position: center;
     transition: .4s ease;
@@ -520,11 +519,10 @@ iframe{
     padding: 1rem;
     margin-bottom: 1rem;
     transition: inherit;
-    border-radius: .5rem;
 }
 
 .item-card:hover{
-    box-shadow: 0 0 2px rgba(0, 0, 0, .6);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .6);
 }
 
 .item-des{

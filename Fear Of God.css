@@ -191,7 +191,6 @@ section{
 .item-card img{
     max-width: 100%;
     object-fit: cover;
-    border-radius: .5rem;
     cursor: pointer;
     object-position: center;
     transition: .4s ease;
@@ -201,13 +200,12 @@ section{
 .item-card{
     width: 24.9%;
     padding: 1rem;
-    border-radius: .5rem;
     margin-bottom: 1rem;
     transition: inherit;
 }
 
 .item-card:hover{
-    box-shadow: 0 0 2px rgba(0, 0, 0, .6);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .6);
 }
 
 .item-des{
