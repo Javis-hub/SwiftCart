@@ -538,7 +538,7 @@ section{
     }
 
     .item-des button{
-        padding: .2rem;
+        padding: 0;
         font-size: .9rem;
         border-radius: .3rem;
     }
@@ -562,7 +562,7 @@ section{
     }
 
     .item-card{
-        width: 48%;
+        width: 46%;
         padding: .5rem 0;
     }
 }

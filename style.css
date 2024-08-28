@@ -973,7 +973,7 @@ iframe{
     .card-des button,
     .item-des button{
         border-radius: .3rem;
-        padding: .2rem;
+        padding: 0;
         font-size: .9rem;
     }
 
@@ -1077,7 +1077,7 @@ iframe{
     }
 
     .item-card{
-        width: 48%;
+        width: 46%;
         padding: .5rem 0;
     }
 
