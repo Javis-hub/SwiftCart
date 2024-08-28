@@ -594,6 +594,12 @@ iframe{
     background-color: #000;
     color: #d6d6d6;
     cursor: pointer;
+    border: none;
+}
+
+.go button{
+    background-color: #b2adad;
+    color: #000;
 }
 
 #news{
