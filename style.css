@@ -508,6 +508,7 @@ iframe{
     width: 100%;
     object-fit: cover;
     cursor: pointer;
+    border-radius: .5rem;
     filter: brightness(.85);
     object-position: center;
     transition: .4s ease;
@@ -519,6 +520,7 @@ iframe{
     padding: 1rem;
     margin-bottom: 1rem;
     transition: inherit;
+    border-radius: .5rem;
 }
 
 .item-card:hover{
@@ -889,7 +891,7 @@ iframe{
     }
     
     .card-des a{
-        font-size: .9rem;
+        font-size: .87rem;
     }
     .sect-card{
         padding: .5rem;

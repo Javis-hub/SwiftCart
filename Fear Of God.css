@@ -209,28 +209,23 @@ section{
 }
 
 .item-des{
-    padding: 0;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: justify;
     transition: inherit;
 }
 
-
-.item-des a,
-.item-des p{
-    line-height: 1.1;
-    font-size: .8rem;
-    font-weight: 500;
+.item-des a{
+    font-weight: 600;
 }
 
 .item-des p{
     color: red;
+    font-weight: 700;
 }
-
-.item-des a:hover{
-    color: #251b1b;
-    text-decoration: underline;
-}
-
 #footer{
     background-color: #d6d6d6;
 }
@@ -440,12 +435,6 @@ section{
         cursor: pointer;
     }
 
-
-    .item-des a,
-    .item-des p{
-        font-size: .78rem;
-    }
-
     #hero{
         height: 100vh;
     }
@@ -459,32 +448,18 @@ section{
     .item-card{
         width: 30%;
     }
-    .item-des a,
-    .item-des p{
-    line-height: 1.1;
-    font-size: .8rem;
-    font-weight: 500;
-}
 }
 
 @media (max-width: 768px){
     .item-card{
         width: 45%;
     }
-
-    .item-des a,
-    .item-des p{
-    font-size: .8rem;
-    font-weight: 500;
-}
 }
 
 @media (max-width: 620px){
-    .item-des a,
-    .item-des p{
-    line-height: 1.1;
-    font-weight: 400;
-}
+    .item-des a{
+        font-size: .9rem;
+    }
 }
 
 @media (max-width: 468px){
