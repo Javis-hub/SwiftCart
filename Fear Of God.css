@@ -540,8 +540,8 @@ section{
         font-size: 1rem;
     }
     .item-card{
-        width: 45%;
-        padding: .5rem;
+        width: 48%;
+        padding: .5rem 0;
     }
 }
 
