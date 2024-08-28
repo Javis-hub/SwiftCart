@@ -977,6 +977,11 @@ iframe{
         font-size: .9rem;
     }
 
+    .card-des button i,
+    .item-des button i{
+        margin: 0;
+    }
+
     #news h2{
         font-size: 1.3rem;
     }

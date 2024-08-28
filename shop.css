@@ -542,6 +542,10 @@ section{
         font-size: .9rem;
         border-radius: .3rem;
     }
+
+    .item-des button i{
+        margin: 0;
+    }
 }
 
 @media (max-width: 468px){
