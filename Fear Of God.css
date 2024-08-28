@@ -191,6 +191,7 @@ section{
 .item-card img{
     max-width: 100%;
     object-fit: cover;
+    border-radius: .5rem;
     cursor: pointer;
     object-position: center;
     transition: .4s ease;
@@ -199,7 +200,8 @@ section{
 
 .item-card{
     width: 24.9%;
-    padding: 1rem .2rem;
+    padding: 1rem;
+    border-radius: .5rem;
     margin-bottom: 1rem;
     transition: inherit;
 }
@@ -446,17 +448,21 @@ section{
         gap: 1rem;
     }
     .item-card{
-        width: 30%;
+       padding: .3rem;
     }
 }
 
 @media (max-width: 768px){
     .item-card{
-        width: 45%;
+        width: 40%;
     }
 }
 
-@media (max-width: 620px){
+@media (max-width: 668px){
+    .item-card{
+        width: 42%;
+    }
+
     .item-des a{
         font-size: .9rem;
     }
@@ -466,6 +472,7 @@ section{
     section{
         padding: 10px 3%;
     }
+
     #navbar{
         padding: 4rem .3rem 7rem;
     }
@@ -497,17 +504,13 @@ section{
         font-weight: 400;
         font-size: 1rem;
     }
-
-    .item-pro{
-        padding: 0;
-    }
     .item-card{
         width: 45%;
         padding: .5rem;
     }
 }
 
-@media (max-width: 368px){
+@media (max-width: 325px){
     .item-card{
         width: 100%;
     }
