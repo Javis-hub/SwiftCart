@@ -228,6 +228,10 @@ section{
     transition: .2s ease;
 }
 
+.item-card img:hover{
+    filter: brightness(1);
+}
+
 
 .item-card{
     width: 22.5%;

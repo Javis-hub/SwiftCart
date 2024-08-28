@@ -255,6 +255,10 @@ html,body{
     border-radius: .5rem;
 }
 
+.card img:hover{
+    filter: brightness(1);
+}
+
 .card{
     padding: .3rem;
     gap: 1rem;
@@ -511,6 +515,10 @@ iframe{
     filter: brightness(.85);
     object-position: center;
     transition: .4s ease;
+}
+
+.item-card img:hover{
+    filter: brightness(1);
 }
 
 
