@@ -249,14 +249,17 @@ section{
 }
 
 .item-des{
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: justify;
 }
 
 
 .item-des a,
 .item-des p{
-    line-height: 1.1;
-    font-size: .79rem;
     font-weight: 500;
 }
 
@@ -266,7 +269,7 @@ section{
 
 .item-des a:hover{
     color: #251b1b;
-    text-decoration: underline;
+    transform: scale(.92);
 }
 
 .bttn{

@@ -266,8 +266,13 @@ section{
     text-align: justify;
 }
 
+.card-des a:hover{
+    transform: scale(.92);
+}
+
 .card-des p{
     color: red;
+    font-weight: 600;
 }
 
 #sect{
@@ -526,14 +531,9 @@ iframe{
     transition: inherit;
 }
 
-
-.item-des a,
-.item-des p{
-    font-weight: 500;
-}
-
 .item-des p{
     color: red;
+    font-weight: 600;
 }
 
 .item-des a:hover{
@@ -1006,12 +1006,7 @@ section{
 
     .item-card{
         width: 45%;
-        padding: 0;
-    }
-
-    .item-des a,
-    .item-des p{
-        font-weight: 400;
+        padding: .5rem;
     }
 
     #news{
