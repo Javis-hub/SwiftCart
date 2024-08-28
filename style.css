@@ -508,7 +508,7 @@ iframe{
     text-decoration: underline;
 }
 
-#item button{
+/* #item button{
     padding: .5rem 1.5rem;
     background-color: #000;
     color: #d6d6d6;
@@ -518,8 +518,8 @@ iframe{
 }
 
 #item button:hover{
-    background-color: #000000ae;
-}
+    background-color: #f3d662;
+} */
 
 .item-pro{
     display: flex;
@@ -1077,7 +1077,7 @@ iframe{
     }
 
     .item-card{
-        width: 46%;
+        width: 47%;
         padding: .5rem .2rem;
     }
 
