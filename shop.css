@@ -240,6 +240,9 @@ section{
     transition: .3s;
 }
 
+.item-card:hover{
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.066);
+}
 
 .item-des{
     display: flex;
