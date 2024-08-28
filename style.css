@@ -589,6 +589,13 @@ iframe{
     margin-right: .3rem;
 }
 
+.go button{
+    padding: .5rem 1.5rem;
+    background-color: #000;
+    color: #d6d6d6;
+    cursor: pointer;
+}
+
 #news{
     text-align: center;
     background-color: #d6d6d6;
