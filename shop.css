@@ -11,7 +11,7 @@
 --hero-bttn-2-width: 20%;
 --hero-bttn-3-width: 50%;
 --hero-bttn-3-height: 1.7rem;
---section-1: 20px 4%;
+--section-1: 20px 5%;
 --section-2: 15px 3%;
 --section-3: 15px 2%;
 --font-family-2: 'archivo Black';
@@ -26,6 +26,7 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     font-family: 'poppins',sans-serif;
     scrollbar-width: thin;
+    text-size-adjust: 100%;
 }
 
 a{
