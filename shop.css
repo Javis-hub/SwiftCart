@@ -254,7 +254,6 @@ section{
 }
 
 .item-des a{
-    font-size: .9rem;
     font-weight: 400;
     text-transform: capitalize;
 }
@@ -350,7 +349,6 @@ section{
 }
 
 .list-foot li a{
-    font-size: 1rem;
     transition: .3 ease;
 }
 
@@ -376,7 +374,6 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: .8rem;
     margin: .5rem 0;
 }
 
@@ -535,13 +532,11 @@ section{
     }
 
     .item-des a{
-        font-size: .85rem;
         font-size: 350;
     }
 
     .item-des button{
         padding: .55rem 0;
-        font-size: .85rem;
         border-radius: .3rem;
     }
 
