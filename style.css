@@ -39,7 +39,7 @@ section{
 }
 
 html,body{
-    height: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 
@@ -52,7 +52,7 @@ html,body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 3rem;
+    min-height: 2.5rem;
     z-index: 999;
 }
 
