@@ -32,7 +32,11 @@
 a{
     text-decoration: none;
     color: inherit;
+    font-size: .9rem;
 }
+
+p{
+    font-size: .9rem;
 
 section{
     padding: var(--section-1);
